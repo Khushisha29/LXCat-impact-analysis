@@ -1,0 +1,5 @@
+pandas
+torch
+marker-pdf
+pypandoc
+chemdataextractor2

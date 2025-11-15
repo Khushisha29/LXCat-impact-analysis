@@ -1,0 +1,2230 @@
+chemical_name,resolved_chemical_name
+ACH4,
+ACol,
+AFS,
+AHeNe,
+AIDA,
+AMO,
+AMReX,
+APAC,
+APC,
+ARGON,
+ARMCO iron,IRON
+ASVM,
+ATA,
+ATE,
+ATOL,
+ATP,
+AZ85721,
+Acetamide,acetamide
+Acetic acid,acetic acid
+Acetone,acetone
+Acetylene,ACETYLENE
+Adenine,adenine
+Ag,SILVER
+Al,ALUMINUM
+Al162,
+Al2O,Aluminium(I) oxide
+Al2O2,Al2O2
+Al2O3,ALUMINUM OXIDE
+AlC3F5C5H9,
+AlCl,Aluminum monochloride
+AlN,Aluminum nitride
+AlO,Aluminum monoxide
+AlO2,SCHEMBL3406848
+AlOH,"Aluminum(2+), hydroxy-"
+AlR3,
+Ala,
+Alamos,Alamos
+Alcohols,
+Aldo,haloperidol
+Alexa,
+Alkane,
+Alumina,Emery
+Aluminized,
+Aluminum,ALUMINUM
+Ammonia,ammonia
+Anthracite,
+Apogee,Regalis
+Ar,ARGON
+Ar Ã,
+Ar þ,
+Ar2,Argon dimer
+Ar4P,
+Ar4S,
+ArAr2,SCHEMBL8015959
+ArAt,
+ArI,
+Aramco,
+Argon,ARGON
+Arin,
+AsB,arsinoborane
+AsCF4,
+AsCO,
+AsCO2,
+AsEq,
+AsH,hydridoarsenic(2.) (triplet)
+AsKn0,
+AsNe,
+AsO2,Arsenenite
+AsU,SCHEMBL3440482
+AsV,
+AsZ,
+Aschwanden,
+Asp,L-aspartic acid
+At10,
+At7Pa,
+AtE,
+AtM,
+AtP,
+Atomic Oxygen,Atomic oxygen
+Atomic hydrogen,Hydrogen
+Atomic nitrogen,nitrogen
+Atomic oxygen,Atomic oxygen
+Au,GOLD
+AuGa,
+AuGa2,
+Avagadro,
+Avogadro,
+B,BORON
+B i,
+B r BZ,
+B39,SCHEMBL5953949
+BAS,
+BASECOL,
+BASECOL2012,
+BBGKY,
+BCl3,BORON TRICHLORIDE
+BE3,
+BEB2,
+BED,
+BET,
+BF3,BORON TRIFLUORIDE
+BGK,
+BJH,
+BMO,
+BNC575,
+BNC577,
+BOL,
+BOLSIGþ,
+BSO,
+BSR,
+BSRDT,
+BSS702,
+Ba,BARIUM
+BaO,BARIUM OXIDE
+BaTiO3,Barium titanium oxide
+BaW,
+Barium,BARIUM
+Battel,
+BdCO2,
+BdN2,
+BdO2,
+BeH,
+BeH2,Beryllium hydride
+BeX,
+Bergantz,
+Bernstein,
+Beryllium,BERYLLIUM
+Betaboltz,
+BgSN n,
+Bi12SiO20,
+Bi2MoO6,VVHXWRLVYFOXMN-UHFFFAOYSA-N
+Bilikmen,
+Bol,
+Boltz,
+Bornstein,
+Boron,BORON
+Boron Nitride,Boron nitride
+Bousoltane,
+Br,bromide
+BrC3HC6H3,
+BrCl,BROMINE CHLORIDE
+Brescansin,
+Brønsted acid,
+Bsplines,
+Butanal,butyraldehyde
+Butane,BUTANE
+Butanol,1-butanol
+Butanone,2-Butanone
+Bx,
+ByEq,
+Bz,
+Börnstein,
+C,Carbon  
+C Ace,
+C qp N e N q,
+C1,Carbon  
+C10F20O5,97571-69-2
+C10HC3HC6H7,
+C12H2,"1,3,5,7,9,11-Dodecahexayne"
+C14H10,PHENANTHRENE
+C16O,
+C16O2,
+C18O,
+C18O2,
+C1SIGMA,
+C2,ethynid-2-yl
+C2F,
+C2F3,Trifluorovinyl radical
+C2F3N,Trifluoroacetonitrile
+C2F4,TETRAFLUOROETHYLENE
+C2F4O,Trifluoroacetyl fluoride
+C2F5,Pentafluoro ethyl radical
+C2F5CN,Pentafluoropropionitrile
+C2F6,HEXAFLUOROETHANE
+C2F6C4C7H5,
+C2FN,
+C2H,Ethynyl
+C2H2,ACETYLENE
+C2H2C2H2,1-BUTEN-3-YNE
+C2H2F4,"1,1,1,2-TETRAFLUOROETHANE"
+C2H2O,KETENE
+C2H2S,Thioketene
+C2H3,Vinyl radical
+C2H3C3H6,Cyclopentyl radical
+C2H3N,ACETONITRILE
+C2H3NO,METHYL ISOCYANATE
+C2H3O,Acetyl radical
+C2H4,ETHYLENE
+C2H4C2H3CH2,Cyclopentyl radical
+C2H4H2,ETHANE
+C2H4O,Oxirane
+C2H4O2,acetic acid
+C2H4OOH,CHEBI:194240
+C2H4S,Thiirane
+C2H5,Ethyl radical
+C2H5C2H4,
+C2H5C2H4C2H2,Cyclohexyl radical
+C2H5C3H8C3H7,SCHEMBL453616
+C2H5N,Aziridine
+C2H5O,Ethoxide
+C2H5O2,CHEBI:194240
+C2H5OH,ethanol
+C2H6,ETHANE
+C2H6 108,
+C2H6C2H4,BUTANE
+C2H6C2H5C2H4,
+C2H6C3H8C4H10,propane propane propane
+C2H6CH3C2H5,EINECS 269-792-5
+C2H6CH3C3H8,
+C2H6H2,SCHEMBL44
+C2H6O,ethanol
+C2HF4,
+C2HO,Ethynyloxy radical
+C2N,
+C2N2,CYANOGEN
+C2O,"Ethenylidene, oxo-"
+C2OH6,ethanol
+C3Cl4F2O2,"4,4,5,5-Tetrachloro-2,2-difluoro-1,3-dioxolane"
+C3F4H2,"2,3,3,3-tetrafluoropropene"
+C3F4N,
+C3F5N,Pentafluoropropionitrile
+C3F5O,OSXTZGMLOVMQJZ-UHFFFAOYSA-M
+C3F6,Hexafluoropropene
+C3F6O,Hexafluoroacetone
+C3F8,Perflutren
+C3H2F4,"2,3,3,3-tetrafluoropropene"
+C3H3,Propargyl radical
+C3H4,Propyne
+C3H4F2,"1,1-Difluoropropene"
+C3H5,2-Propenyl
+C3H5AC3H6,
+C3H5ACH4,
+C3H6,PROPYLENE
+C3H6OOH,METHOXY-ETHOXYL
+C3H7,
+C3H8,PROPANE
+C3H8C2H5C2H4,
+C3H8C2H5CH4,
+C3HC6H13,
+C3HC6H4,
+C3HC6H9,alpha-Methylstyrene
+C3HF5,"1,1,3,3,3-Pentafluoropropene"
+C3HF7,"1,1,1,2,3,3,3-Heptafluoropropane"
+C3O2,Carbon suboxide
+C4F,
+C4F10,Perflubutane
+C4F6,Hexafluorocyclobutene
+C4F6N,
+C4F7N,Heptafluorobutyronitrile
+C4F8,Octafluorocyclobutane
+C4F8C7H8,"2-trifluoromethyl-3-benzyl-1,1,1,3,3-pentafluoropropane"
+C4F8O,Heptafluorobutyryl fluoride
+C4H,
+C4H10,BUTANE
+C4H2,"1,3-Butadiyne"
+C4H2F6,"3,3,3-Trifluoro-2-(trifluoromethyl)propene"
+C4H4,1-BUTEN-3-YNE
+C4H4N2,PYRAZINE
+C4H6,"1,3-BUTADIENE"
+C4H8,ISOBUTYLENE
+C4H8O,butyraldehyde
+C4H9OH,1-butanol
+C4HC7H9,1-METHYLNAPHTHALENE
+C4N2H4,PYRAZINE
+C5F10O,heptafluoropropyl trifluorovinyl ether
+C5H10,1-PENTENE
+C5H10O,3-Methylbutanal
+C5H10O2,Valeric acid
+C5H11,n-pentyl
+C5H12,PENTANE
+C5H2,SCHEMBL3188910
+C5H3,
+C5H4,"1,3-Pentadiyne"
+C5H4O2,FURFURAL
+C5H5,cyclopentadienide
+C5H6,Cyclopentadiene
+C5H7,"1,4-Pentadien-3-yl radical"
+C5H8,ISOPRENE
+C5H9,Cyclopentyl radical
+C6F12O,Perfluorohexanoyl fluoride
+C6H10,CYCLOHEXENE
+C6H12,CYCLOHEXANE
+C6H14,HEXANE
+C6H2,"1,3,5-Hexatriyne"
+C6H3O2,
+C6H4,"cis-hex-3-ene-1,5-diyne"
+C6H4O2,p-benzoquinone
+C6H5,
+C6H5CH2,tropylium
+C6H5CH2O,4-Methoxyphenyl
+C6H5CHO,benzaldehyde
+C6H5CHOH,4-Methoxyphenyl
+C6H5CO,benzylium
+C6H5O,phenolate
+C6H5OH,phenol
+C6H6,benzene
+C6H8,Methylcyclopentadiene
+C6N2,Hexadiynedinitrile
+C7H10,"2-Methyl-1,3-cyclohexadiene"
+C7H14O,2-HEPTANONE
+C7H2,
+C7H3,
+C7H4,PA-789-80
+C7H6,"Bicyclo[4.1.0]hepta-1,3,5-triene"
+C7H6O3,salicylic acid
+C7H8,toluene
+C8H16O,
+C8H2,"1,3,5,7-Octatetrayne"
+C8H3,
+C8H4,29837-12-5
+C8H6,Ethynylbenzene
+C8N2,"Octa-2,4,6-triynedinitrile"
+C9H2,
+C9H3,
+C9H4,tetraethynyl methane
+CA20129,
+CARBON DIOXIDE,carbon dioxide
+CCCH2,Cyclopropyne
+CCH4,ETHYLENE
+CCO,"Ethenylidene, oxo-"
+CCl2F2,DICHLORODIFLUOROMETHANE
+CCl3F,Trichlorofluoromethane
+CCl4,CARBON TETRACHLORIDE
+CClF3,CHLOROTRIFLUOROMETHANE
+CDAP,
+CDM,
+CEPC,
+CF2,Difluoromethylene
+CF2O,Carbonyl fluoride
+CF3,Trifluoromethyl radical
+CF3Br,Bromotrifluoromethane
+CF3CH5 5CHF,
+CF3I,Trifluoromethyl iodide
+CF4,CARBON TETRAFLUORIDE
+CF4In,
+CFN,Cyanogen fluoride
+CFO,
+CH,
+CH methylidyne,
+CH2,Methylene
+CH2CH2OH,Ethoxide
+CH2CHO,Acetyl radical
+CH2CO,KETENE
+CH2Cl2,DICHLOROMETHANE
+CH2F2,DIFLUOROMETHANE
+CH2O,formaldehyde
+CH2O2,formic acid
+CH2OH,methoxide
+CH3,carbanylium
+CH3 COOOH,
+CH3C,Vinyl radical
+CH3C3H8C3H7,SCHEMBL5519010
+CH3CH2O,Ethoxide
+CH3CHO,Oxirane
+CH3CHOH,Ethoxide
+CH3CN,ACETONITRILE
+CH3CO,Acetyl radical
+CH3COCH3,acetone
+CH3COH,Oxirane
+CH3CONH2,acetamide
+CH3COOH,acetic acid
+CH3Cl,Chloromethane
+CH3F,FLUOROMETHANE
+CH3N,Methanimine
+CH3O,methoxide
+CH3O2,Methyldioxy
+CH3OCH3,ethanol
+CH3OH,methanol
+CH3OO,Methyldioxy
+CH4,methane
+CH4C2H2C2H4,1-PENTENE
+CH4CH3C2H6,
+CH4COCO2 H2O,
+CH4O,methanol
+CHCH,ACETYLENE
+CHCHO,KETENE
+CHEMKIN NH3,
+CHF3,TRIFLUOROMETHANE
+CHLORINE,
+CHNO,Isocyanic acid
+CHNS,thiocyanic acid
+CHO,Formyl cation
+CHO2,formate
+CHO3,bicarbonate
+CI1561,
+CI1657,
+CIPA,
+CITE,
+CN,cyanide
+CNH,hydrogen cyanide
+CNN,NCN radical
+CNO,ISOCYANATE
+CO,carbon monoxide
+CO MNRAS532,
+CO e,
+CO gas,
+CO overtones,
+CO2,carbon dioxide
+CO2COOO2 CuP,
+CO2TPD,
+CO3,carbonate
+CO39,
+CO4,"Oxygen, carbon dioxide"
+COCOOL,
+COH,Formyl cation
+COHCOH,GLYOXAL
+COIn,
+COL,
+COMSOL,
+CONH3,formamide
+CONH3MSi8 H18,
+CONQUEST,
+COOH,formate
+COOHCO,glyoxylate
+COPPER,
+COlines,
+CPR284,
+CRANE,
+CRM,
+CS2,CARBON DISULFIDE
+CSIC,
+CSIRO,
+CSsIn,
+CTMCA,
+CTP,
+CVNe,
+CYXY,
+CaCl,FJBDAVVJAPUENG-UHFFFAOYSA-M
+CaF,A839281
+CaF2,CALCIUM FLUORIDE
+CaO,1305-78-8
+CaTiO3,Calcium titanium trioxide
+Cadmium,CADMIUM
+Californium,CALIFORNIUM
+Carbon,Carbon  
+Carbon Monoxide,carbon monoxide
+Carbon black,Carbon  
+Carbon dioxide,carbon dioxide
+Carbon monoxide,carbon monoxide
+Carbone,Carbon  
+Carmen,Lercanidipine hydrochloride
+Catalin,pirenoxine
+Cd,CADMIUM
+CdO,CADMIUM OXIDE
+CdS,CADMIUM SULFIDE
+CdV,SCHEMBL6934290
+Ce,CERIUM
+Ce oxide,
+Ce oxides,
+CeI3,Cerous iodide
+CeO2,Ceric oxide
+CeZrO2,
+CeZrO4,Cerium zirconium oxide (CeZrO4)
+Ceria,Ceric oxide
+Cesar,Hexythiazox
+Cesium,CESIUM
+Chalcogenide,
+Chlorine,CHLORINE
+Christophorou,
+Cl,chloride
+Cl2,CHLORINE
+Cl2RIE,
+ClHO,HYPOCHLOROUS ACID
+ClO2,CHLORINE DIOXIDE
+Co,COBALT
+Co oxide,
+Co2,
+Co3O4,tricobalt tetraoxide
+CoO,Cobalt(II) oxide
+CoO x,
+Coal,
+CoorsTek,
+Copper,COPPER
+Coppola,
+Corvin,Nikethamide
+Cr,CHROMIUM
+Cr2O3,Chromium(III) oxide
+CrO,chromium-oxygen
+CrZrO2,
+Cs,CESIUM
+Cs2O,Caesium oxide
+CsCl,CESIUM CHLORIDE
+Cu,COPPER
+Cu damascene,
+Cu oxide,
+Cu1Ce3,
+CuCl,Cuprous chloride
+CuCr,12506-91-1
+CuCr30,
+CuCr40,
+CuO,Copper(II) oxide
+D e,
+D n,
+D103104,Hydrogen
+D1D2D3D4D5D6,Hydrogen
+D2,Hydrogen
+D2O,water
+DA2,
+DAME,
+DATS,
+DBD2023O3,BORIC ACID
+DC2019H2,
+DCS,methanethiol
+DCTZ,
+DE2,
+DEA,
+DG353,
+DG645,
+DH2000,Hydrogen
+DH340T,
+DHCO2,formic acid
+DIN,AMMONIUM IODIDE
+DITE,
+DL,
+DM,
+DM2220,
+DME,
+DMEM,
+DMF,
+DMPO,
+DMol,
+DNN,Nitrogen
+DNT,
+DPO7254C,
+DPT100,
+DSMCNo,
+DT10 0 10 1 E,
+DTN,
+Dakine,
+Dalgarno,
+Diamant,Propyromazine bromide
+Diamond,Carbon  
+Diazenilium,
+Dicarbon,ACETYLENE
+Difluoropropene,"1,1-Difluoropropene"
+Dim,"3,3'-Diindolylmethane"
+Dipole,
+Disilane,DISILANE
+Drawin,BUTOCARBOXIM
+Drexel,diuron
+Dt,
+Duran,diuron
+Dy,DYSPROSIUM
+E,
+E r,
+E th EE c η c,
+E0N,
+E2,
+ECH,
+ECH2,
+EEDFIN,
+EGM,
+EIRENE,
+EMMO,
+ENLIL,
+EP,
+EP2PLUS,
+EPOTRAN,
+ETO,
+Eden,103818-46-8
+Einstein,
+Eirene,
+Eqn,AM580
+Er,ERBIUM
+Estrin,
+Ethanal,acetaldehyde
+Ethane,ETHANE
+Ethanol,ethanol
+Ethanolamine,Ethanolamine
+Ethene,ETHYLENE
+Ethylene,ETHYLENE
+Ethylene glycol,ETHYLENE GLYCOL
+Eu,EUROPIUM
+Europium,EUROPIUM
+Exhaust Gas,carbon monoxide
+F,fluoride
+F dD,
+F m,
+F2CO,Carbonyl fluoride
+F2O,Oxygen difluoride
+F2O2,Fluorine dioxide
+FAD,
+FGL590,
+FLorentz,
+FMN,
+FNO,Nitrosyl fluoride
+FOB102,
+FORTRAN,
+FSR,
+Fe,IRON
+Fe88,
+FeO,Wustite
+FeOOH,Goethite (Fe(OH)O)
+FeSi,A3I5H1663X
+Fin,"(1R)-1-{[(4'-METHOXY-1,1'-BIPHENYL-4-YL)SULFONYL]AMINO}-2-METHYLPROPYLPHOSPHONIC ACID"
+Fluorine,FLUORINE
+Fluorouracil,5-Fluorouracil
+Formaldehyde,formaldehyde
+Format,CLOPYRALID
+Forum,Dimethomorph
+Franklin,
+Furfural,FURFURAL
+GANIL,
+GEM,
+GM00637,
+GSHe,
+Ga,GALLIUM
+Ga amide,
+Ga2O3,Gallium oxide
+GaAs,GALLIUM ARSENIDE
+GaN,Gallium nitride
+GaP,Gallium phosphide
+Gaifullin,
+Gallimberti,
+Gas E,
+Gd,GADOLINIUM
+Ge,GERMANIUM
+GeH4,Germane
+GeO,Germanium monoxide
+GeV,
+Geldenaakesbaan,
+Germane,Germane
+Germanium,GERMANIUM
+Gln,L-glutamine
+GlobalKin,
+Glomax,Kaolin(superfine)
+Glucose,D-Glucopyranose
+Gly,glycine
+Glycolaldehyde,glycolaldehyde
+Goh,"5-[2-Cyclopropyl-5-(1h-Pyrrol-1-Yl)-1,3-Oxazol-4-Yl]-1h-1,2,3,4-Tetrazole"
+Graphene,Carbon  
+Graphite,Carbon  
+Griffin,
+H,Hydrogen cation
+H b 0,
+H element,
+H l,
+H2,Hydrogen
+H2 0,
+H2 100,
+H2 55,
+H2020,
+H2A,
+H2CO,formaldehyde
+H2CrO4,CHROMIC ACID
+H2In,
+H2N2O2,Nitramide
+H2O,water
+H2O16,SCHEMBL9999671
+H2O18,SCHEMBL12143366
+H2O2,hydrogen peroxide
+H2O274,
+H2O2HNO,azonic acid
+H2O2N2,Nitramide
+H2O3S,Sulfurous acid
+H2OC,formaldehyde
+H2OS,Sulfanol
+H2Os,Osmium Dihydride
+H2S,hydrogen sulfide
+H2S2,Disulfide
+H2SO4,SULFURIC ACID
+H2SiF6,Hexafluorosilicic acid
+H4C,methane
+HBr,Hydrogen bromide
+HCCO,Ethynyloxy radical
+HCCOH,KETENE
+HCHO,formaldehyde
+HCN,hydrogen cyanide
+HCO,Formyl cation
+HCOH,formaldehyde
+HCOO,formate
+HCOOH,formic acid
+HCl,hydrochloric acid
+HClO4,PERCHLORIC ACID
+HD,Hydrogen
+HDO6104,hydrogen peroxide
+HEDP,
+HELICON,
+HEX,
+HFA,
+HFO,Hypofluorous acid
+HFO a,
+HFO eff,
+HFO1225,
+HFO1234,
+HFOs,SCHEMBL2831753
+HHH,
+HKS,potassium hydrosulfide
+HMDSO,
+HNC,hydrogen cyanide
+HNCCC,Cyanoacetylene
+HNO,Nitroxyl
+HNO2,NITROUS ACID
+HNO3,NITRIC ACID
+HNO4,Peroxynitric acid
+HNaO,SODIUM HYDROXIDE
+HO,hydroxide
+HO2,Perhydroxyl radical
+HO2H2O2,
+HO2NO2,Peroxynitric acid
+HOCH2 CHO,
+HOCH2CH2 OH,
+HOCNH2,formamide
+HOHHOH,Water dimer
+HOHOH,"Hydroxide, hydrate"
+HONO,NITROUS ACID
+HONO2,NITRIC ACID
+HONOO,NITRIC ACID
+HOO2OHO H,
+HTPB,
+HYDROGEN,
+HYPHEN,
+Hacac,Acetylacetone
+Hafnia,12055-23-1
+He,HELIUM
+He Ã,
+He2 1 S,
+He2 3 P,
+He2 3 S,
+HeH,SCHEMBL5485438
+HeI,
+HeIn,
+HeNA,
+HeOn,
+Heaviside H,
+Helicon,aspirin
+Helium,HELIUM
+Helmholtz,
+Hem,heme
+HfO2,12055-23-1
+Hg,MERCURY
+Hg0,
+HgCl,Chloromercury
+HgCl2,MERCURIC CHLORIDE
+HgO,MERCURIC OXIDE
+HgOH,SCHEMBL19589
+HiTRAN,
+His,L-histidine
+HjC,
+Ho,HOLMIUM
+Hoh,water
+Huber,Carbon  
+Hybrid fs,
+Hydrazine,HYDRAZINE
+Hydrocarbon,
+Hydrogen,Hydrogen
+Hydroxyl,Hydroxyl radical
+IAM,
+IC3H6,
+ICA,
+ICAM,
+ICARUS,
+ICPEAC2023,
+ID15115,Hydriodic acid
+IDP,Phosphonium iodide
+IIL,
+IIn,Indium monoiodide
+IL104,
+INAF,
+IPA,
+IPDI,Phosphonous diiodide
+IRAP,
+ISABELA,
+ISO1600,
+ISO250,
+ITCS,
+ITO,
+IVA,
+IVC,
+Ie,
+IfCO2,
+IfE,
+Iin,
+Ilmenite,Ilmenite
+Imagine,
+Imamovic,
+InC2H2,indiren
+InGaAs,indium gallium arsenide
+InH,
+InNO2,
+Iodine,iodine
+Ir,IRIDIUM
+Iron,IRON
+Itikawa,
+JEOL,
+JEOLF200,
+Jauderteau,
+Joblin,
+Jones,
+Jτ,
+K,Potassium cation
+K j sup l,
+K j sup l T,
+K0,
+K0K0,
+K1 2 3 4 CHF,
+K2Cr2O7,POTASSIUM DICHROMATE
+KANU,
+KATRIN,
+KAUST ZDPlasKin,
+KAUSTKin,
+KMnO4,POTASSIUM PERMANGANATE
+KN,
+KOH,POTASSIUM HYDROXIDE
+KYORITSU,
+Kachorovskiĭ,
+Kano,Kanamycin A sulfate
+Kato,potassium chloride
+Kawaguchi,
+Kettlitz,
+Kieselguhr,
+Kn,
+Kogelschatz,
+Kr,KRYPTON
+KrF,
+Kroin,
+Krypton,KRYPTON
+L,
+L t,
+LDPE,
+LHS,
+LI,
+LISBON,
+LPA,
+LT364,
+LWFA,
+La,LANTHANUM
+LaB6,Lanthanum hexaboride
+Laboratori C,
+Lamps,
+Lanagevin rate,
+Lanchester,
+Langevin,
+Lefkowitz,
+Leu,L-leucine
+Lewis acid,
+Li,LITHIUM
+LiCl,LITHIUM CHLORIDE
+LiH,LITHIUM HYDRIDE
+LiNbO3,Lithium niobate
+Lifshitz,
+LightningBoltz,
+LisbOn,
+Lisbon,
+Lithium,LITHIUM
+Lys,L-lysine
+MACH3,
+MACHINE,
+MAGBOLTZ,
+MAGOLBTZ,
+MAVEN,
+MBN,
+MCC,
+MCH2CHO12,
+MCPEP,
+MCT,
+MD8046,
+MDO3024,
+MDO3034,
+MDO3104,
+MDSplus,
+METHANE,
+MHgCl,
+MHgCl2,
+MHz,
+MMC,
+MMS,
+MMtCO2,
+MNRAS532,
+MO x,
+MOCASSIN,
+MOOSE,
+MORGAN,
+MP1002,
+MP750389,
+MPDT,
+MPT,
+MS3504,
+MT19937,
+MTBE,
+MTCS,
+MTO,
+MVTC23013,
+MX3DAM,
+MXenes,
+Macor,
+MagBoltz,
+Magboltz,
+Magnesium,MAGNESIUM
+Malone,
+Mangan,MANGANESE
+Manitoba Hydro,
+Massines,
+Me,
+Me2E2,
+Mercury,MERCURY
+Messwandlerbau,
+Met,L-methionine
+Met CO,
+Metal oxide,
+Methane,methane
+Methanol,methanol
+Mg,MAGNESIUM
+Mg72,
+MgCl2,MAGNESIUM CHLORIDE
+MgF2,Afluon
+MgI,
+MgO,Magnesia
+Mn,MANGANESE
+Mn oxides,
+MnO,Manganese(II) oxide
+MnO2,Manganese dioxide
+MnOx,
+Mo,MOLYBDENUM
+MoS2,MOLYBDENUM DISULFIDE
+Monotone,
+Montesano,
+Montmessin,
+Muse,alprostadil
+MΠS f L f M f,
+N,Nitrogen
+N a,
+N c,
+N c N r,
+N dipoles,
+N e,
+N e N i,
+N e N k l k,
+N e N n,
+N e N n τ,
+N e NN42 2,
+N e T e N,
+N e even,
+N e k BT e,
+N e v b,
+N element,
+N f,
+N i,
+N i l,
+N k,
+N l,
+N m 2,
+N m N,
+N n,
+N p,
+N r N,
+N s,
+N sat,
+N z,
+N À,
+N σ L,
+N2,Nitrogen
+N2 1,
+N2 141,
+N2 145,
+N2 1P,
+N2 2,
+N2H2,Diazene
+N2H3,hydrazinide
+N2H4,HYDRAZINE
+N2Hx,
+N2In,
+N2O,nitrous oxide
+N2O2,nitrous oxide
+N2O3,Dinitrogen trioxide
+N2O4,Dinitrogen tetroxide
+N2O5,Dinitrogen pentoxide
+N2O5H2O,nitric acid nitrate
+N2ON2O,SCHEMBL2221221
+N3,azide
+N3O2,
+N4RB0 2 2,
+N500Td,
+NA2,
+NAMD,
+NANBN,
+NAND,
+NAdam,
+NB f,
+NC2,
+NCO,ISOCYANATE
+ND3,ammonia
+NE b,
+NF3,NITROGEN TRIFLUORIDE
+NH,imidogen
+NH x,
+NH x F y,
+NH þ x,
+NH2,azanide
+NH2CH2CH2 OH,
+NH2NO,Nitrosamine
+NH3,ammonia
+NH3O2Ar340,
+NH3PAC,
+NH3TPD,
+NH4F,AMMONIUM FLUORIDE
+NH4NO2,Ammonium nitrite
+NHN,diazynium
+NHO,Nitroxyl
+NHOHON,Nitramide
+NHOMO,
+NHX,
+NHp,
+NHx,
+NIFSAM,
+NMF,
+NNH,diazynium
+NO,nitric oxide
+NO x,
+NO x lead,
+NO À,
+NO þ,
+NO1,nitric oxide
+NO10,
+NO12,
+NO2,nitrite
+NO2N011,
+NO2NO2,Dinitrogen tetroxide
+NO3,nitrate
+NO5,
+NO7,
+NO80,
+NO800,
+NOCO,Oxo(oxomethylidene)ammonium
+NOIn,
+NONNO,
+NOx,
+NRP,
+NRP2021NH3,
+NRP2022,
+NRP2022CH4,
+NRPCO2,
+NRPDIn,
+NRT,
+NTP,
+Na Pyruvate,
+Na2C2O4,Sodium oxalate
+NaCl,sodium chloride
+NaD2,SODIUM
+NaI,sodium iodide
+NaK,11135-81-2
+NaNO2,SODIUM NITRITE
+NaNO3,SODIUM NITRATE
+Nafion,
+Napartovich A,
+Nastran,
+Navrátil,
+NbAs,12255-08-2
+Nd,NEODYMIUM
+Ne,NEON
+Ne þ,
+Neon,NEON
+Ni,NICKEL
+Ni5Ga3,
+NiO,Nickel(II) oxide
+Nickel,NICKEL
+Nicoll,
+Nightside,
+Nin,
+Nitrate,nitrate
+Nitric Oxide,nitric oxide
+Nitric Oxide NO,
+Nitric oxide,nitric oxide
+Nitrite,nitrite
+Nitrogen,Nitrogen
+Nitrogen gas,Nitrogen
+Nitrogen oxides,
+Nitrous acid,NITROUS ACID
+Nitrous oxide,nitrous oxide
+NpH,
+NyOx,
+O,Atomic oxygen
+O a1,
+O a1 2,
+O b1,
+O b1 2,
+O gas,
+O hydro,
+O hydroxyl,
+O s,
+O v,
+O12C16O,
+O12C18O,
+O2,oxygen
+O2 1,
+O2 2,
+O2 2 2,
+O2APPJ,
+O2RO2,
+O2T,
+O2Tg4,
+O2VDF,
+O3,OZONE
+O4,SCHEMBL21797
+OC16O,
+OC18O,
+OC2H3OOH,PERACETIC ACID
+OC2H5,Ethoxide
+OC3H5OOH,lactic acid
+OC6H4CH3,4-Methoxyphenyl
+OCO,carbon dioxide
+OCS,CARBONYL SULFIDE
+OH,hydroxide
+OH hydroxyl,
+OH À,
+OH þ H À,
+OHOHIn,
+OHOOH OH,
+OHXOPH S,
+OI1304,
+OICIDs,
+OL455,
+ONO,nitrite
+ONOO,nitrate
+ONOOCO2,nitrosoperoxycarbonate(1-)
+ONOOH,NITRIC ACID
+OOHOH2O,
+OOHOHO,hydroxyperoxide
+OONOH,NITRIC ACID
+OPUS,
+OXYGEN,
+OZONE,
+Oh,
+Ohnemus,
+Oleylamine,Oleylamine
+Ombrello,
+Opal,Epoxiconazole
+OpenFOAM,
+OrdinaryDiffEq,
+Ornstein,
+Oxides,
+Oxy,oxygen
+Oxygen,oxygen
+Ozone,OZONE
+Oꞏ,
+P,Phosphorus 31
+P e,
+P oxides,
+P r,
+P020,
+P297,
+P3O3,SCHEMBL13842621
+PAA,
+PAC,
+PACs,
+PAH,
+PAHs,
+PANTERA,
+PARDISO,
+PBD,Boron phosphide
+PCL,
+PD07016,PHOSPHINE
+PD2,PHOSPHINE
+PDMS,
+PEC,
+PEMFC,
+PENE,
+PEO,
+PET,
+PF3,Phosphorus trifluoride
+PFAS,
+PFIB,
+PGA,
+PGM,
+PGS,
+PH3,PHOSPHINE
+PHIDRATES,
+PICASO,
+PICIn,
+PICMCC,
+PLA,
+PMMA,
+PMNS,
+PO2,"Phosphate(2-), dioxo-"
+POCO,SCHEMBL8918739
+POSMOL,
+PPT,
+PSG,
+PTFE,
+PUECH,
+PVA,
+PVDF,
+PWFA,
+Pb,LEAD
+PbO,Lead monoxide
+Pc,
+Pd,PALLADIUM
+Pd13Zn87,
+Pd3Zn10,
+PdZn,
+PdZn2,
+Peatno,
+Pechereau,
+Penicillin,1406-05-9
+Penrose,
+Petrovic,
+Pevgov V,
+PhC,
+PhCH3,
+Phelps,
+Phenol,phenol
+Philipp E,
+PiC,
+Platinum,PLATINUM
+Plexiglas,
+Polyethylene,
+Polylactic acid,
+Polypropylene,
+Positronium,
+Potassium,POTASSIUM
+Pro,L-proline
+Progen,
+Prop,
+Propanal,Propionaldehyde
+Propanol,1-propanol
+Propanone,acetone
+Ps,
+Pt,PLATINUM
+Pt3Zn,
+Pure oxygen,oxygen
+PyBoltz,
+PyCollisionDB,
+PyMol,
+PyQn,
+PyQt5,
+Pyrazine,PYRAZINE
+Pyridine,PYRIDINE
+Pyrimidine,PYRIMIDINE
+Pyrromethene,dipyrrin
+QOOH,
+QQ0,
+QT,
+QTH,
+QUANTEMOL,
+Qr,
+Quantemol,
+Quartz,SILICON DIOXIDE
+Quartz ln C,
+Quinone,p-benzoquinone
+R103,
+RADON,
+RAM,
+RENATE,
+RFCF4,
+RFE,
+RHS,
+RIGOL DS1104Z,
+RIn,
+RKC,
+RO2,
+ROACH2,
+ROBIN,
+ROO,
+ROOH,
+RRK,
+RTOL,
+Radon,RADON
+Ramp,ETHYLENE GLYCOL
+Rh,RHODIUM
+Ribose,D-ribopyranose
+Richter,Richter
+Roh,
+Rouge,Colloidal ferric oxide
+Ru,RUTHENIUM
+Ru0,
+RuCl,chloro ruthenium
+RuCl3,DTXSID101014308
+RuK,
+RuO4,Ruthenium tetroxide
+Rubidium,RUBIDIUM
+Rusterholtz,
+Rutherford,
+S,Insoluble sulfur
+S assoc,
+S c,
+S e,
+S iz,
+S k,
+S nh,
+S s,ethanol
+S sc,
+S sup,
+S46CH2CH2,
+SCF,
+SCOP,
+SDpT,
+SDpTv2,
+SE,
+SF2,13814-25-0
+SF3,SCHEMBL5455591
+SF4,SULFUR TETRAFLUORIDE
+SF5,HAQZDUWRNKKMQY-UHFFFAOYSA-N
+SF5CF3,"Sulfur, pentafluoro(trifluoromethyl)-"
+SF6,SULFUR HEXAFLUORIDE
+SF6EEDF,
+SFC10H2,
+SFe,ferrous sulfide
+SO x,
+SO2,sulfur dioxide
+SOMAFOAM,
+SPECTCOL,
+SSCHO,Hydrogen carbonodithioate
+SSH,disulfanide
+STSVDF,
+SUMO,
+Sapphire,Emery
+Saskatchewan,
+Saturn,THIOBENCARB
+Scenario A,
+Scenario B,
+Scenario C,
+Schwartz,
+Se,SELENIUM
+Sec,Sec
+Selma,PHENCYCLIDINE
+Ser,L-serine
+Shchedrin,
+Sherman,PHENCYCLIDINE
+Shield,CLOPYRALID
+Si,SILICON
+Si þ H,
+Si2,DISILANE
+Si2H2,SCHEMBL7197796
+Si2H6,silylsilane
+Si3N4,Silicon nitride
+Si5H11,SCHEMBL16555106
+Si5H12,"2,2-Disilyltrisilane"
+SiBr4,Tetrabromosilane
+SiC,SILICON CARBIDE
+SiCl,Chlorosilane
+SiCl2,Dichlorosilylene
+SiF2,SiF2
+SiF4,Tetrafluorosilane
+SiGe,germylidynesilane
+SiH,deuterosilane
+SiH þ H,
+SiH2,Silylene
+SiH3,silylium
+SiH4,SILANE
+SiH4H2,silane hydrogen
+SiO,Silicon monoxide
+SiO2,SILICON DIOXIDE
+Silane,SILANE
+Silica,SILICON DIOXIDE
+Silicon,SILICON
+Silver,SILVER
+Simulated L r,
+Sirius Red,Direct Red 80
+Siron,
+Sivachandiran,
+Sn,Tin
+SnO2,Tin(IV) oxide
+So,
+SoT,
+Sodium,SODIUM
+Sonnenfroh,
+Sr,STRONTIUM
+Sr l,
+SrO,Strontium oxide
+Stancil,
+Stardust,PHENCYCLIDINE
+Starfire,PARAQUAT
+Stein,Carbendazim
+Steward,Indoxacarb
+Stolterfoht,
+Stosszahlansatz,
+Streptomycin,streptomycin
+Sweep,CHLOROTHALONIL
+T,
+T e l e c c ion,
+T 𝛼eff,
+T3,
+TABLE18,
+TB12 200,
+TC23012,
+TCP0150AC,
+TCS,
+TCS methanol,
+TDB,
+TDS2014C,
+TDS7104,
+TEA,
+TECHNO,
+TEGA,
+TEL,
+TGP110,
+THF,
+THFA,
+THz,
+TICS1 0 2 0 0,
+TMAD,
+TMS,
+TMZ,
+TN280,
+TOAl,
+TOC,
+TOP,
+TPP1000,
+TRF,
+TRG,
+TRIDYN,
+TRIDYN120,
+TRINITI,
+TRITIUM,
+TRIzol,
+TSA,
+TTTIn,
+TXY,
+TZVP,
+Ta,TANTALUM
+TaAs,
+TaN,12033-62-4
+TaP,12037-63-7
+Tc,TECHNETIUM
+Td,
+Td1 2 3 4 CHF,
+Td10 2 10 3 10,
+TdE,
+TdH,
+TdQ,
+Te,TELLURIUM
+TeV,vanadium monotelluride
+Teflon,TETRAFLUOROETHYLENE
+Tetrahydrofuran,TETRAHYDROFURAN
+Th,THORIUM
+ThO2,THORIUM DIOXIDE
+The element,
+ThunderBoltz,
+Thymine,thymine
+Ti,TITANIUM
+Ti sub,
+Ti148,
+TiAlSiN,
+TiCl,
+TiCl3,TITANIUM TRICHLORIDE
+TiCl4,TITANIUM TETRACHLORIDE
+TiN,Titanium nitride
+TiO,Titanium monoxide
+TiO2,TITANIUM DIOXIDE
+Tin,Tin
+Titanium,TITANIUM
+Toluene,toluene
+Torus,FENOXYCARB
+Transition A,
+Triniti,
+Tritium,TRITIUM
+Triton,Triton
+Trp,L-tryptophan
+Tungsten,TUNGSTEN
+Tyr,L-tyrosine
+U3O8,Uranous-uranic oxide
+UKRMol,
+UNO3,Urannitrat
+V oxides,
+VALIDATE,
+VDS6104,
+VE,
+VE r N,
+VIB,
+VIC,
+VIC2,
+VIIIB,
+VM,
+VZRZR1 2 1 2,
+Venkattraman,
+Vib,thiamine
+Viggiano,
+Vir,VIR
+Vz,
+VÁs,
+W0M0M2 2,
+WB2DB,
+WCl6,Tungsten(VI) chloride
+WKB,
+WR284,
+WSe2,12067-46-8
+Wolfram,TUNGSTEN
+XCH4,
+XH2,
+XO2,
+Xe,XENON
+Xe e,
+Xe þ,
+Xe2,SCHEMBL2355509
+XeCl,
+Xenon,XENON
+Y2O3,Yttrium oxide
+YCH4,SCHEMBL9304440
+YNS,
+YO2,
+ZBL,
+ZDPlasKin,
+ZDplaskin,
+ZIF,
+ZSM,
+Zapdos,
+Zeolite,zeolite
+Zeolites,zeolite
+Zh,
+Zhdanok S,
+Ziegler,
+Zinc,ZINC
+Zinc chloride,Dichlorozinc
+Zn,ZINC
+Zn amide,
+Zn2SiO4,Zinc silicate
+ZnCl2,Dichlorozinc
+ZnO,Supertah
+ZnS,sulfanylidenezinc
+ZnSO4,Zinc sulfate
+ZnSe,OWX23150D5
+Zonal,fluconazole
+Zoran,ethinylestradiol & norethisterone
+Zr,ZIRCONIUM
+ZrO2,zirconium dioxide
+a,
+aZBL,
+acetal,Acetal
+acetaldehyde,acetaldehyde
+acetamide,acetamide
+acetic acid,acetic acid
+acetone,acetone
+acetylacetonate,Acetylacetonate
+acetylene,ACETYLENE
+acrylic,
+acrylic acid,ACRYLIC ACID
+adenine,adenine
+airmethane,
+alanine,L-alanine
+alcohol,ethanol
+alcohols,
+aldehydes,formaldehyde
+aliphatic acids,
+alkali metals,
+alkane,
+alkanes,
+alkene,
+alkenes,Alkenes
+alkoxy,
+alkoxysilane,
+alkyl,
+alkylamines,
+alkylperoxy,
+allene,Allene
+alumina,Emery
+alumina ceramic,ALUMINUM OXIDE
+aluminium,ALUMINUM
+aluminium oxide,ALUMINUM OXIDE
+aluminized,
+aluminum,ALUMINUM
+aluminum alkyl,
+aluminum oxide,ALUMINUM OXIDE
+aluminum oxides,
+amalgam,
+amalgams,
+amide,
+amides,
+amine,Substituted amine
+amino,
+amino acid,Oligopeptide-68
+amino acids,Oligopeptide-68
+ammonia,ammonia
+anhydrite,CALCIUM SULFATE
+aniline,ANILINE
+anisole,ANISOLE
+ansatz,
+anthocyanin,
+anthocyanins,Flavylium
+anthracite,
+argon,ARGON
+argonoxygen,
+aromatic,
+ascorbic acid,l-ascorbic acid
+atomic helium,HELIUM
+atomic hydrogen,Hydrogen
+atomic nitrogen,nitrogen
+atomic oxygen,Atomic oxygen
+atomic oxygen O,
+aurora borealis,PHENCYCLIDINE
+azabenzene,PYRIDINE
+azabenzenes,
+azi,
+azoxystrobin,Azoxystrobin
+b,BORON
+bakelite,
+barium,BARIUM
+benzene,benzene
+benzenes,
+benzol,benzene
+benzoquinones,
+beryllium,BERYLLIUM
+betanin,Betanin
+biphenyl,Biphenyl
+bismuth,BISMUTH
+blue line,METHAPYRILENE HYDROCHLORIDE
+bore,BORON
+boron,BORON
+boron nitrate,Boron nitrate
+borosilicate,
+bright blue,
+butadienes,
+butane,BUTANE
+butanol,1-butanol
+butyl,
+butylperoxy,
+butyraldehyde,butyraldehyde
+c,Carbon  
+c F,
+c L,
+c R,
+cadmium,CADMIUM
+caesium,CESIUM
+calcite,CALCIUM CARBONATE
+calcium,CALCIUM
+carbohydrate,
+carbohydrates,
+carbon,Carbon  
+carbon black,Carbon  
+carbon dioxide,carbon dioxide
+carbon hydroxyl,
+carbon monoxide,carbon monoxide
+carbon oxides,
+carbon steel,
+carbonate,carbonate
+carbonate ionic,
+carbonates,carbonate
+carbonic acid,carbonic acid
+carbonitrile,
+carbons,
+carbonyl,formaldehyde
+carbonyls,
+carboxyl,
+carboxylate,
+ceria nitrate,
+cerium,CERIUM
+cesium,CESIUM
+chalcogenide,
+chalcone,Chalcone
+charcoal,Carbon  
+chlorine,CHLORINE
+chlorine gas,
+chlorocarbons,
+chloroform,CHLOROFORM
+chlorophyll,1406-65-1
+chrome,CHROMIUM
+chromite,Chromite ore
+chromium,CHROMIUM
+chromium oxide,Chromium oxide
+citric acid,citric acid
+coal,
+cobalt,COBALT
+cobalt oxide,USK772NS56
+cobalt oxides,
+coll,
+column Z d N d,
+constant T,
+coordinates,
+copper,COPPER
+copper PhC,
+copper nitrate,CUPRIC NITRATE
+copper oxide,Copper(II) oxide
+copper powder,COPPER
+copperchromium,
+coppers,
+cordierite,Cordierite
+corecollapse,
+corundum,Emery
+cyanide,cyanide
+cyanoacrylate,Mecrylate
+cyclic ether,
+cyclic ethers,
+cycloalkanes,
+cyprodinil,Cyprodinil
+cysteine,L-cysteine
+cystine,L-cystine
+cytosine,cytosine
+d,
+dNe t ð Þ dt,
+damascene,
+dashed blue,
+dashed red,
+deoxyribose,2-Deoxy-D-ribose
+deuterium,DEUTERIUM
+deuterium gas,
+deuteron,Deuteron
+diamond,Carbon  
+diamonds,
+diazines,
+diethyl ether,DIETHYL ETHER
+differential,
+dimensions l ρ,
+dimethyl ether,DIMETHYL ETHER
+diones,
+dioxins,
+directwrite,
+disilane,DISILANE
+disulfide,Disulfide
+dodecane,DODECANE
+dolomite,DOLOMITE
+driftplane,
+dry ice,carbon dioxide
+dry methane,
+dysprosium,DYSPROSIUM
+dσ S f v f,
+e,L-glutamic acid
+e P,
+e S,
+e T e,
+e n r t d f r t,
+eff,1-[(2S)-2-methyl-3-sulfanyl-propanoyl]piperidine-4-carboxamide
+eirene,
+el,Glu-Leu
+endeavor,Zotarolimus
+enol,
+eosin,Eosin
+epoxide,Caryophyllene oxide
+epoxy,
+equilibrium OH,
+ester,ester
+esters,
+ethane,ETHANE
+ethanol,ethanol
+ethanolamine,Ethanolamine
+ether,DIETHYL ETHER
+ethers,
+ethoxy,
+ethyl,Ethyl radical
+ethyl acetate,ETHYL ACETATE
+ethyl alcohols,
+ethylbenzene,ETHYLBENZENE
+ethylene,ETHYLENE
+ethylene glycol,ETHYLENE GLYCOL
+ethylenyl,Vinyl radical
+ethyloxonium,
+europium,EUROPIUM
+exhaust gas,carbon monoxide
+f A,
+f O,
+fE N iv N,
+fatty acid,
+fatty acids,
+ferrochromium,
+ferronickel,
+ferrosilicon,FERROSILICON
+finesse,
+flame,Imazapic
+flame zone,
+flame zones,
+flavonoids,3-Hydroxyflavone
+fludioxonil,Fludioxonil
+fluoride,fluoride
+fluorides,fluoride
+fluorine,FLUORINE
+fluorine F,
+fluorine θ F,
+fluorite,Fluorite
+fluorocarbon,FLUOROMETHANE
+fluorocarbons,
+fluoroketones,
+fluoromethanes,
+fluoronitrile,
+fluoropolymers,
+fluorouracil,5-Fluorouracil
+fluorspar,CALCIUM FLUORIDE
+form CH n,
+formaldehyde,formaldehyde
+formamide,formamide
+formate,formate
+formates,
+formic acid,formic acid
+formyl,Formyl radical
+fullerene,Buckminsterfullerene
+fullerenes,Buckminsterfullerene
+furan,FURAN
+furfural,FURFURAL
+gadolinium,GADOLINIUM
+gallic acid,Gallic acid
+gallium,GALLIUM
+gashalides,
+gasoline,Indolene
+germane,Germane
+germanium,GERMANIUM
+gjwilkie,
+glassy carbon,
+glucose,D-Glucopyranose
+glycerol,glycerol
+glycine,glycine
+glycolaldehyde,glycolaldehyde
+glycolonitrile,GLYCOLONITRILE
+grapheme,
+graphene,Carbon  
+graphite,Carbon  
+graphitic,
+guanine,guanine
+h,Hydrogen
+hafnium oxide,12055-23-1
+halide,
+halides,
+halite,sodium chloride
+halo,Halodrol
+halocarbons,
+halogen,
+halogen lamp,
+halogens,
+heavy water,DEUTERIUM OXIDE
+helicon,aspirin
+helium,HELIUM
+helium dimer,
+hematoxylin,HEMATOXYLIN
+hemicellulose,
+heptanone,2-HEPTANONE
+heritage,Azoxystrobin
+hexane,HEXANE
+hybrid fs,
+hydrate,hydrate
+hydrated,
+hydrazine,HYDRAZINE
+hydrides,
+hydrocarbon,
+hydrocarbons,
+hydrogen,Hydrogen
+hydrogen atoms,Hydrogen
+hydrogenoxygen,
+hydrogens,
+hydronium,Oxonium
+hydroperoxy,
+hydroperoxyl,
+hydrotalcite,HYDROTALCITE [MI]
+hydroxide,hydroxide
+hydroxyl,Hydroxyl radical
+hydroxyls,
+hydroxypropyl,hydroxypropyl
+i,iodine
+iLiMi,
+ilmenite,Ilmenite
+imidazole,imidazole
+in,INDIUM
+indium,INDIUM
+indium hydride,
+indium iodide,Indium triiodide
+iodide,Iodide
+iodine,iodine
+iodine Iodine,
+ion O n,
+ionization,
+iron,IRON
+iron ore,HEMATITE
+iron oxide,Iron dioxide
+irradiation,
+isobutane,ISOBUTANE
+isobutanol,Isobutanol
+isobutene,ISOBUTYLENE
+isobutenyl,
+isobutylene,ISOBUTYLENE
+isooctyl,
+isopentane,ISOPENTANE
+isopropanol,Isopropyl alcohol
+isopropyl,Isopropyl alcohol
+isopropylperoxy,
+its,
+iv i,
+ivi dΩ,
+iðtÞdt,
+j,
+j E,
+j V i,
+j b,
+j f,
+jasmonic acid,Jasmonic acid
+jfranz,
+jl A j A l A,
+k,POTASSIUM
+k B,
+k BTNa,
+k BTNa j A j,
+k b À q e X,
+k i,
+ketamine,ketamine
+ketene,KETENE
+ketone,
+ketones,
+kieselguhr,
+krypton,KRYPTON
+kynurenine,kynurenine
+l,
+l B,
+l N,
+l e,
+l j,
+l max,
+l z,
+l ρ,
+lB,
+lactic acid,lactic acid
+lanthanide,
+lanthanides,
+lanthanum,LANTHANUM
+laterite,
+light green,Double green
+light red,Eisen(III)-oxid
+linear alkane,
+lithium,LITHIUM
+lone,
+luminol,LUMINOL
+lycopene,LYCOPENE
+m,L-methionine
+m e,
+magnesium,MAGNESIUM
+magnetron,
+magnitudeof S e,
+maltose,maltose
+manganese,MANGANESE
+manganese oxide,Manganese oxide
+mannitol,D-mannitol
+measurement,
+melamine,MELAMINE
+mercury,MERCURY
+mercury vapor,MERCURY
+metal oxide,
+metal oxides,
+metal sulphides,
+methacrolein,METHACROLEIN
+methane,methane
+methanes,
+methanol,methanol
+methionine,L-methionine
+methoxy,Methoxy
+methyl,Methyl radical
+methylene,Methylene
+methylperoxy,
+mezzanine,
+mineral oxides,
+mn,MANGANESE
+molten tin,
+molybdenum,MOLYBDENUM
+monohydrate,
+monosilane,SILANE
+monotone,
+mowiol,Ethenol
+n,Nitrogen
+n O,
+n c l c m c,
+n e,
+naphtha,
+naphthalene,naphthalene
+naphthenes,
+native oxide,
+neon,NEON
+neopentane,NEOPENTANE
+neopentyl,
+neutral argon,
+new green,Mountain Green
+nheptane,
+nickel,NICKEL
+nickel catalyst,NICKEL
+nickel laterite,
+nickel oxide,Nickel(II) oxide
+nightside,
+nil,N6-ethanimidoyl-D-lysine
+niobium,NIOBIUM
+nitrate,nitrate
+nitrates,nitrate
+nitric,
+nitric acid,NITRIC ACID
+nitric oxide,nitric oxide
+nitric oxide NO,
+nitric oxides,
+nitride,
+nitrile,
+nitrite,nitrite
+nitrites,nitrite
+nitro,Nitrogen peroxide
+nitrogen,Nitrogen
+nitrogen atom,nitrogen
+nitrogen gas,Nitrogen
+nitrogen oxide,
+nitrogen oxides,
+nitrous acid,NITROUS ACID
+nitrous oxide,nitrous oxide
+noble,
+noble gases,
+npentane,
+nucleic acid,
+nucleic acids,
+nucleobases,
+nucleotides,
+nvN nvN k TXY,
+o e,
+o e x e,
+o f,
+octane,octane
+olefin,
+olefins,
+oleic acid,oleic acid
+oleylamine,Oleylamine
+omethoate,OMETHOATE
+one time,Pyrinuron
+one α,
+opalescence,Urea hydrogen peroxide
+organo silicate,
+organosilicon,
+out,
+oxalic acid,oxalic acid
+oxide,oxide
+oxides,
+oxonium,Oxonium
+oxopentenyl,
+oxy,oxygen
+oxychlorine,
+oxygen,oxygen
+oxygen O,
+oxygen anions,
+oxygen atom,water
+oxygen molecule,oxygen
+oxygen nitrides,
+oxygen radical,
+oxygen radicals,
+oxygen θ O,
+oxygenate,
+oxygenates,
+oxygennitrogen,
+oxygenrich,
+oxygens,
+ozone,OZONE
+p,Phosphorus 31
+p F m,
+pBQ,Pentabromopseudilin
+pVXZ,
+palladium,PALLADIUM
+paraffin oil,
+parsePlasKin,
+pentane,PENTANE
+pentenyl,
+pentradienes,
+perfluoro,
+perfluorocarbon,CARBON TETRAFLUORIDE
+performedLee,
+pernitric acid,
+perovskite,Calcium dioxido(oxo)titanium
+peroxide,hydrogen peroxide
+peroxides,
+peroxy,
+peroxynitrite,Peroxynitrite
+petrol,Indolene
+phenol,phenol
+phenolic,
+phenolics,
+phenols,
+phenyl,Phenyl radical
+phenyl methyl,
+phenylalanine,L-phenylalanine
+phosphate,phosphate
+phosphides,
+phosphines,
+phospholipids,
+phytohormones,
+plastoquinol,Plastoquinol-9
+plastoquinone,Plastoquinone A
+platinum,PLATINUM
+polyester,
+polyethylene,
+polyfluoroalkyl,
+polyimide,
+polylactic acid,
+polyolefin,
+polyphenols,
+polypropylene,
+polysilicon,
+porcelain,
+potassium,POTASSIUM
+potential,
+prelude,Prochloraz
+primary alcohol,methanol
+primary amines,
+procyanidins,Procyanidin
+profenid,ketoprofen
+prolate,Phosmet
+propadiene,Allene
+propane,PROPANE
+propanol,1-propanol
+propenal,ACROLEIN
+propene,PROPYLENE
+propyne,Propyne
+pure oxygen,oxygen
+pyocyanin,Pyocyanin
+pyrazine,PYRAZINE
+pyrazine HOMO,
+pyrilium,
+pyrimidine,PYRIMIDINE
+pyriproxyfen,Pyriproxyfen
+pyrrole,PYRROLE
+quartz,SILICON DIOXIDE
+quinone,p-benzoquinone
+quinones,
+r,
+r IE b ð Þ,
+r JE b ð Þ,
+r S,
+radionuclide,
+radon,RADON
+rhodopsin,11-cis-Retinal
+ribose,D-ribopyranose
+rubidium,RUBIDIUM
+ruthenium,RUTHENIUM
+s,Insoluble sulfur
+s E,
+s E m,
+s F m,
+s l Շ,
+saccharides,
+salicylic acid,salicylic acid
+sapphire,Emery
+selenium,SELENIUM
+sh k d BR m JJJ,
+silane,SILANE
+silanes,
+silanol,Hydroxysilane
+silanols,
+silica,SILICON DIOXIDE
+silica gel,
+silica glass,
+silicate,DTXSID50925491
+silicon,SILICON
+silicon dioxide,SILICON DIOXIDE
+silicon nitride,Silicon nitride
+silicon oxide,
+silicone rubber,
+silver,SILVER
+silver behenate,Silver behenate
+singular,MONTELUKAST SODIUM
+sodium,SODIUM
+sodium nitrate,SODIUM NITRATE
+solid green,Brilliant green
+spanwise,
+sphereplane,
+spin S,
+squalane,SQUALANE
+squalene,squalene
+standalone,
+steadystate,
+stochiometric,
+sucrose,sucrose
+sugar,sucrose
+sugars,
+sulfate,sulfate
+sulfates,
+sulfhydryl,sulfanyl
+sulfur,Insoluble sulfur
+sulfur oxides,
+sulfuric acid,SULFURIC ACID
+sulphide,Sulfide ion
+sulphides,
+sulphur,Insoluble sulfur
+superoxide,Superoxide
+surfaguide,
+t SS t n t,
+t f,
+tHNNH,
+tellurite,tellurite
+tellurium,TELLURIUM
+temozolomide,temozolomide
+tepanol,
+terahertz,
+terbutyl,
+terbutyloxy,
+tetrahydrofuran,TETRAHYDROFURAN
+thallium iodide,Thallium iodide
+thin CO gas,
+thiols,hydrogen sulfide
+thorium,THORIUM
+thrusters,
+thymidine,thymidine
+thymine,thymine
+thymol,THYMOL
+tin,Tin
+titania,TITANIUM DIOXIDE
+titania oxide,
+titanium,TITANIUM
+toluene,toluene
+total x y z mol,
+tq b t,
+transition,
+transition l,
+transition zone,
+trichloroethane,"1,1,1-TRICHLOROETHANE"
+trifluoromethyl,Trifluoromethyl radical
+tritium,TRITIUM
+triton,Triton
+tryptophan,L-tryptophan
+tryptophane,L-tryptophan
+tungsten,TUNGSTEN
+tungsten oxide,TUNGSTEN TRIOXIDE
+tunnelingin,
+tyrosine,L-tyrosine
+udioxonil,
+uracil,uracil
+uranium,URANIUM
+uranium oxide,Uranium trioxide
+urethane urea,urethane urea
+v,VANADIUM
+v A,
+v b,
+v c,
+v z,
+valid,
+vane,
+vanillin,vanillin
+verbose,
+vinoxy,
+vitamin C,l-ascorbic acid
+w,TUNGSTEN
+w O,
+x B,
+xenon,XENON
+xenon chloride,
+xenon σ i,
+xylazin,xylazine
+xylene,
+yttrium,YTTRIUM
+z,
+zein,
+zeolite,zeolite
+zeolites,zeolite
+zero one,MCPA-thioethyl
+zinc,ZINC
+zinc oxide,Supertah
+zinc oxides,
+zirconium,ZIRCONIUM
+zoomedin E,
