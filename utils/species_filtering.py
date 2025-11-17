@@ -22,7 +22,7 @@ def is_irrelevant(term):
 
 
 # ===========================================================
-# 2. FORMULA NORMALIZATION (NO NAME MAPPING)
+# 2. FORMULA NORMALIZATION
 # ===========================================================
 
 SUBSCRIPT_MAP = str.maketrans({
@@ -31,13 +31,11 @@ SUBSCRIPT_MAP = str.maketrans({
 })
 
 def normalize_formula(s: str) -> str:
-    """Normalize only formula variants, not species names."""
     if not s:
         return s
-
     s = s.replace(" ", "").replace("_", "")
     s = s.translate(SUBSCRIPT_MAP)
-    s = re.sub(r'[+\-⁺⁻]', '', s)  # remove any charge
+    s = re.sub(r'[+\-⁺⁻]', '', s)
     return s.upper()
 
 
@@ -51,22 +49,15 @@ JUNK_WORDS = {
 }
 
 def is_junk(term: str) -> bool:
-    """Remove known junk tokens from plasma physics extraction."""
     return term.upper() in JUNK_WORDS
 
 
 def looks_like_formula(term: str) -> bool:
-    """
-    Basic chemical formula structure:
-    - Must start with a capital letter.
-    - May contain lowercase letters and digits.
-    Example: O2, CO2, N2, CH4, O, He, Ar, O3
-    """
     return bool(re.fullmatch(r'[A-Z][A-Za-z0-9]*', term))
 
 
 # ===========================================================
-# 4. FILTER PIPELINE
+# 4. FILTER PIPELINE (NO TXT MODIFICATIONS)
 # ===========================================================
 
 def filter_all_raw_counts(intermediate_root, cleaned_txt_root):
@@ -81,7 +72,6 @@ def filter_all_raw_counts(intermediate_root, cleaned_txt_root):
 
         raw_file = os.path.join(base, f"{folder}_raw_chem_counts.txt")
         out_file = os.path.join(base, f"{folder}_filtered_chem_counts.txt")
-        original_txt = os.path.join(cleaned_txt_root, f"{folder}.txt")
 
         if not os.path.exists(raw_file):
             print(f"[filter] Missing raw file for {folder}")
@@ -99,29 +89,19 @@ def filter_all_raw_counts(intermediate_root, cleaned_txt_root):
 
                 norm = normalize_formula(chem)
 
-                # Skip junk, irrelevant, reaction-like, and non-chemical patterns
+                # Skip unwanted terms
                 if (is_junk(norm)
                     or is_reaction_like(norm)
                     or is_irrelevant(norm)
                     or not looks_like_formula(norm)):
-
                     bad_terms.add(norm)
                     continue
 
                 filtered.append((norm, int(count)))
 
-        # ---- Save filtered output ----
+        # ---- Write ONLY the filtered chemicals ----
         with open(out_file, "w", encoding="utf-8") as f:
             for chem, count in sorted(filtered, key=lambda x: -x[1]):
                 f.write(f"{chem}\t{count}\n")
-
-        # ---- Remove junk terms from cleaned .txt file ----
-        try:
-            text = open(original_txt, "r", encoding="utf-8").read()
-            for term in sorted(bad_terms, key=len, reverse=True):
-                text = text.replace(term, "")
-            open(original_txt, "w", encoding="utf-8").write(text)
-        except:
-            pass
 
         print(f"[filter] {folder}: {len(filtered)} kept, {len(bad_terms)} removed")
