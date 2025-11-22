@@ -1,0 +1,1341 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Journal of CO2 Utilization",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          215.3515625,
+          86.4560546875
+        ],
+        [
+          380.6484375,
+          86.4560546875
+        ],
+        [
+          380.6484375,
+          102.90142822265625
+        ],
+        [
+          215.3515625,
+          102.90142822265625
+        ]
+      ]
+    },
+    {
+      "title": "Plasma activation of CO2 in a dielectric barrier discharge: A chemical kinetic\nmodel from the microdischarge to the reactor scales",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          37.25,
+          164.7705078125
+        ],
+        [
+          488.90625,
+          164.7705078125
+        ],
+        [
+          488.90625,
+          196.5299072265625
+        ],
+        [
+          37.25,
+          196.5299072265625
+        ]
+      ]
+    },
+    {
+      "title": "ARTICLE INFO",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          36.0859375,
+          257.4296875
+        ],
+        [
+          111.84512329101562,
+          257.4296875
+        ],
+        [
+          111.84512329101562,
+          264.72589111328125
+        ],
+        [
+          36.0859375,
+          264.72589111328125
+        ]
+      ]
+    },
+    {
+      "title": "Keywords:\nDielectric barrier discharge\nNon-thermal plasma\nCO2conversion\nPlasma chemical kinetic modelling\nReaction pathways",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          36.0859375,
+          276.0390625
+        ],
+        [
+          136.6514434814453,
+          276.0390625
+        ],
+        [
+          136.6514434814453,
+          327.56939697265625
+        ],
+        [
+          36.0859375,
+          327.56939697265625
+        ]
+      ]
+    },
+    {
+      "title": "ABSTRACT",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          201.091796875,
+          257.4296875
+        ],
+        [
+          257.548828125,
+          257.4296875
+        ],
+        [
+          257.548828125,
+          264.72589111328125
+        ],
+        [
+          201.091796875,
+          264.72589111328125
+        ]
+      ]
+    },
+    {
+      "title": "1. Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          36.66796875,
+          442.36035156249994
+        ],
+        [
+          96.77729797363281,
+          442.36035156249994
+        ],
+        [
+          96.77729797363281,
+          453.3513488769531
+        ],
+        [
+          36.66796875,
+          453.3513488769531
+        ]
+      ]
+    },
+    {
+      "title": "2. Description of the model",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          36.03022670025189,
+          432.6137865911237
+        ],
+        [
+          144.12090680100755,
+          432.6137865911237
+        ],
+        [
+          144.12090680100755,
+          441.58496093749994
+        ],
+        [
+          36.03022670025189,
+          441.58496093749994
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Experimental setup to be modeled",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          36.03022670025189,
+          453.6071765816808
+        ],
+        [
+          168.1410579345088,
+          453.6071765816808
+        ],
+        [
+          168.1410579345088,
+          463.29589843749994
+        ],
+        [
+          36.03022670025189,
+          463.29589843749994
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Zero-dimensional DBD reactor model",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          304.7556675062972,
+          120.71199244570349
+        ],
+        [
+          448.87657430730474,
+          120.71199244570349
+        ],
+        [
+          448.87657430730474,
+          129.1025390625
+        ],
+        [
+          304.7556675062972,
+          129.1025390625
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Effect of power in the model's parameters - filament-to-filament scale",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          36.03022670025189,
+          497.0934844192634
+        ],
+        [
+          288.992443324937,
+          497.0934844192634
+        ],
+        [
+          288.992443324937,
+          506.71777343749994
+        ],
+        [
+          36.03022670025189,
+          506.71777343749994
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Effect of flow rate in the model's parameter \u2013 one-filament scale",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          304.7556675062972,
+          431.8640226628895
+        ],
+        [
+          541.2040302267002,
+          431.8640226628895
+        ],
+        [
+          541.2040302267002,
+          441.58496093749994
+        ],
+        [
+          304.7556675062972,
+          441.58496093749994
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Electron density in one filament - microdischarge scale",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          304.7556675062972,
+          259.41831916902737
+        ],
+        [
+          508.9269521410579,
+          259.41831916902737
+        ],
+        [
+          508.9269521410579,
+          268.41548630783757
+        ],
+        [
+          304.7556675062972,
+          268.41548630783757
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Summary of the reactor model",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          36.03022670025189,
+          643.9619140625
+        ],
+        [
+          158.3828715365239,
+          643.9619140625
+        ],
+        [
+          158.3828715365239,
+          653.0443814919735
+        ],
+        [
+          36.03022670025189,
+          653.0443814919735
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Chemical model",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          304.7556675062972,
+          538.5087890625
+        ],
+        [
+          379.06801007556675,
+          538.5087890625
+        ],
+        [
+          379.06801007556675,
+          547.3276676109537
+        ],
+        [
+          304.7556675062972,
+          547.3276676109537
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Vibrationally excited states of CO2",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          37.541015625,
+          120.96093749999999
+        ],
+        [
+          171.1344451904297,
+          120.96093749999999
+        ],
+        [
+          171.1344451904297,
+          130.9208984375
+        ],
+        [
+          37.541015625,
+          130.9208984375
+        ]
+      ]
+    },
+    {
+      "title": "2.9. Plasma kinetic model \u2013 cross-sectional data",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          36.66796875,
+          600.5400390625
+        ],
+        [
+          200.80078125,
+          600.5400390625
+        ],
+        [
+          200.80078125,
+          611.6455230712891
+        ],
+        [
+          36.66796875,
+          611.6455230712891
+        ]
+      ]
+    },
+    {
+      "title": "3. Results and discussion",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          36.03022670025189,
+          120.71199244570349
+        ],
+        [
+          135.8639798488665,
+          120.71199244570349
+        ],
+        [
+          135.8639798488665,
+          128.9593956562795
+        ],
+        [
+          36.03022670025189,
+          128.9593956562795
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Validation of the model \u2013 average electron density",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          36.03022670025189,
+          141.7053824362606
+        ],
+        [
+          224.43828715365237,
+          141.7053824362606
+        ],
+        [
+          224.43828715365237,
+          150.7025495750708
+        ],
+        [
+          36.03022670025189,
+          150.7025495750708
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Validation of the model \u2013 matching experimental data",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          36.03022670025189,
+          476.47753906249994
+        ],
+        [
+          237.46875,
+          476.47753906249994
+        ],
+        [
+          237.46875,
+          485.0972615675165
+        ],
+        [
+          36.03022670025189,
+          485.0972615675165
+        ]
+      ]
+    },
+    {
+      "title": "3.2.1. Effect of discharge power",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          36.03022670025189,
+          389.6337890625
+        ],
+        [
+          147.1234256926952,
+          389.6337890625
+        ],
+        [
+          147.1234256926952,
+          398.8744098205854
+        ],
+        [
+          36.03022670025189,
+          398.8744098205854
+        ]
+      ]
+    },
+    {
+      "title": "3.2.2. Effect of flow rate",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          36.03022670025189,
+          600.5400390625
+        ],
+        [
+          123.10327455919395,
+          600.5400390625
+        ],
+        [
+          123.10327455919395,
+          609.0693359375
+        ],
+        [
+          36.03022670025189,
+          609.0693359375
+        ]
+      ]
+    },
+    {
+      "title": "3.2.3. Overall results",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          36.03022670025189,
+          705.9931640625
+        ],
+        [
+          109.59193954659949,
+          705.9931640625
+        ],
+        [
+          109.59193954659949,
+          714.5224609375
+        ],
+        [
+          36.03022670025189,
+          714.5224609375
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Reaction pathways analysis",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          304.7556675062972,
+          146.2039660056657
+        ],
+        [
+          417.35012594458436,
+          146.2039660056657
+        ],
+        [
+          417.35012594458436,
+          154.45136921624172
+        ],
+        [
+          304.7556675062972,
+          154.45136921624172
+        ]
+      ]
+    },
+    {
+      "title": "3.3.1. Mechanisms for CO<sub>2</sub> splitting and recombination",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          304.7556675062972,
+          370.3833805476865
+        ],
+        [
+          494.6649874055415,
+          370.3833805476865
+        ],
+        [
+          494.6649874055415,
+          379.3805476864967
+        ],
+        [
+          304.7556675062972,
+          379.3805476864967
+        ]
+      ]
+    },
+    {
+      "title": "3.4. Energy efficiency",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          35.794921875,
+          380.3291015625
+        ],
+        [
+          112.041015625,
+          380.3291015625
+        ],
+        [
+          112.041015625,
+          388.8583984375
+        ],
+        [
+          35.794921875,
+          388.8583984375
+        ]
+      ]
+    },
+    {
+      "title": "3.5. Reduced electric field and vibrationally excited states",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          37.25,
+          665.6728515625
+        ],
+        [
+          232.90350341796875,
+          665.6728515625
+        ],
+        [
+          232.90350341796875,
+          674.2021484375
+        ],
+        [
+          37.25,
+          674.2021484375
+        ]
+      ]
+    },
+    {
+      "title": "4. Conclusions",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          36.958984375,
+          224.86328124999997
+        ],
+        [
+          94.45781707763672,
+          224.86328124999997
+        ],
+        [
+          94.45781707763672,
+          234.6865234375
+        ],
+        [
+          36.958984375,
+          234.6865234375
+        ]
+      ]
+    },
+    {
+      "title": "Acknowledgements",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          36.0859375,
+          538.5087890625
+        ],
+        [
+          111.35124969482422,
+          538.5087890625
+        ],
+        [
+          111.35124969482422,
+          548.4813995361328
+        ],
+        [
+          36.0859375,
+          548.4813995361328
+        ]
+      ]
+    },
+    {
+      "title": "Appendix A. Supplementary data",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          36.66796875,
+          603.2701416015625
+        ],
+        [
+          165.1803741455078,
+          603.2701416015625
+        ],
+        [
+          165.1803741455078,
+          612.1708984375
+        ],
+        [
+          36.66796875,
+          612.1708984375
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          35.50390625,
+          653.2666015625
+        ],
+        [
+          78.75312805175781,
+          653.2666015625
+        ],
+        [
+          78.75312805175781,
+          663.5670928955078
+        ],
+        [
+          35.50390625,
+          663.5670928955078
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          270
+        ],
+        [
+          "Line",
+          77
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          110
+        ],
+        [
+          "Span",
+          88
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          111
+        ],
+        [
+          "Span",
+          55
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          136
+        ],
+        [
+          "Span",
+          129
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "Reference",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          108
+        ],
+        [
+          "Line",
+          103
+        ],
+        [
+          "Span",
+          76
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          452
+        ],
+        [
+          "Line",
+          130
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          98
+        ],
+        [
+          "TableCell",
+          80
+        ],
+        [
+          "Span",
+          62
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          141
+        ],
+        [
+          "Span",
+          67
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          159
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          340
+        ],
+        [
+          "Line",
+          91
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          493
+        ],
+        [
+          "Line",
+          147
+        ],
+        [
+          "ListItem",
+          30
+        ],
+        [
+          "Reference",
+          9
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          215
+        ],
+        [
+          "Line",
+          62
+        ],
+        [
+          "ListItem",
+          23
+        ],
+        [
+          "Reference",
+          20
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/385"
+}

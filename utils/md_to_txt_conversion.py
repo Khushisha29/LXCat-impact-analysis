@@ -21,7 +21,7 @@ def remove_references_section(text):
         return text[:match.start()].rstrip()
 
     return text
-
+    
 def convert_md_to_txt(md_path: Path, out_path: Path):
     """Convert a single markdown file to text while removing references."""
     md_text = md_path.read_text(encoding="utf-8", errors="ignore")
@@ -38,22 +38,19 @@ def convert_md_to_txt(md_path: Path, out_path: Path):
         extra_args=["--standalone"]
     )
 
-    print(f"✅ Converted: {md_path} → {out_path}")
+    print(f"✅ Converted: {md_path.name} → {out_path.name}")
 
 
 def batch_convert_md_folder(input_root: str, output_root: str):
     """
-    Converts all md files inside nested folders
+    Converts all .md files inside a single folder (NO subfolders).
     """
     input_root = Path(input_root)
     output_root = Path(output_root)
     output_root.mkdir(exist_ok=True, parents=True)
 
-    for folder in input_root.iterdir():
-        if folder.is_dir():
-            md_file = folder / f"{folder.name}.md"
-            if md_file.exists():
-                out_file = output_root / f"{folder.name}.txt"
-                convert_md_to_txt(md_file, out_file)
+    for md_file in input_root.glob("*.md"):
+        out_file = output_root / f"{md_file.stem}.txt"
+        convert_md_to_txt(md_file, out_file)
 
     print("\nAll files converted successfully!")

@@ -1,0 +1,263 @@
+Gas_Symbol,Gas_name
+Ar,argon
+BCl,chloroboron
+BCl2,dichloroboron
+BCl3,trichloroborane
+BF3,trifluoroborane
+Be,beryllium
+C,carbon
+C2,ethyne
+C2H2,acetylene
+C2H4,ethene
+C2H6,ethane
+C2OH6,ethanol
+C3,cyclopropatriene
+C3H4,prop-1-yne
+C3H6,prop-1-ene
+C3H8,propane
+C3N,cyanoethynyl radical
+C4F7N,"2,2,3,3,4,4,4-heptafluorobutanenitrile"
+C5F10O,"1,1,1,2,2,3,3-heptafluoro-3-(1,2,2-trifluoroethenoxy)propane"
+CCl2F2,dichloro(difluoro)methane
+CCl4,tetrachloromethane
+CF,carbon;fluoride
+CF2,difluoromethylene
+CF3I,trifluoro(iodo)methane
+CF4,tetrafluoromethane
+CH,carbon(1-) monohydride
+CH2,methylene
+CH3,carbanylium
+CH4,methane
+CHF3,fluoroform
+CNH,formonitrile
+CO,carbon monoxide
+CO2,carbon dioxide
+CONH3,formamide
+COS,sulfanylidenemethanone
+CS,methanidylidynesulfanium
+CaF,calcium;fluoride
+Cl2,molecular chlorine
+Cu,copper
+D2,molecular hydrogen
+DT,deuterium–tritium
+F,fluorine
+F2,molecular fluorine
+F2O,fluoro hypofluorite
+H,hydrogen
+H2,molecular hydrogen
+H2O,oxidane
+H2S,sulfane
+H4C,methane
+HBr,bromane
+HCHO,formaldehyde
+HCN,formonitrile
+HCP,methylidynephosphane
+HCl,chlorane
+HD,molecular hydrogen
+HT,hydroxytyrosol
+He,helium
+Hg,mercury
+Kr,krypton
+Mg,magnesium
+N,nitrogen
+N2,molecular nitrogen
+N2O,nitrous oxide
+NF3,nitrogen trifluoride
+NH3,azane
+NO,nitric oxide
+NO2,nitrite
+Na,sodium
+Ne,neon
+O,oxygen
+O2,molecular oxygen
+O3,ozone
+O-,oxidane
+PH3,phosphane
+SF,thiohypofluorite
+SF2,fluoro thiohypofluorite
+SF3,trifluorosulfanium
+SF4,tetrafluoro-lambda4-sulfane
+SF5,haqzduwrnkkmqy-uhfffaoysa-n
+SF6,hexafluoro-lambda6-sulfane
+SO2,sulfur dioxide
+Si2H6,silylsilane
+Si(CH3)4,tetramethylsilane
+SiF2,sif2
+SiH4,silane
+SiO,oxosilicon
+Si(OC2H5)4,tetraethyl orthosilicate
+T2,epoxytrichothecene toxin (T-2 toxin)
+Xe,xenon
+C2F4,"1,1,2,2-tetrafluoroethene"
+C4F8,"1,1,2,2,3,3,4,4-octafluorocyclobutane"
+C4H8O,butanal
+C4H8O2,2-methylpropanoic acid
+C6F6,"1,2,3,4,5,6-hexafluorobenzene"
+C6H6,benzene
+COF2,carbonyl difluoride
+F6S,hexafluoro-lambda6-sulfane
+HCOOH,formic acid
+Br,bromine
+C2H4O,oxirane
+(C2H5)2O,diethyl ether
+C2H5OH,ethanol
+C2H6O,ethanol
+C2H7N,n-methylmethanamine
+C3H6O,propan-2-one
+C3H9N,"n,n-dimethylmethanamine"
+C4H10,butane
+C5H12,pentane
+C5H5N,pyridine
+C6H14,hexane
+C7H16,heptane
+C8H18,octane
+CF2Cl2,dichloro(difluoro)methane
+CF3Cl,chloro(trifluoro)methane
+CFCl3,trichloro(fluoro)methane
+CH2O,formaldehyde
+CH3Br,bromomethane
+CH3Cl,chloromethane
+CH3F,fluoromethane
+CH3I,iodomethane
+CH3OC3H7,butan-1-ol
+CH4O,methanol
+CH5N,methanamine
+CNBr,carbononitridic bromide
+CNI,carbononitridic iodide
+HI,iodane
+I2,molecular iodine
+PCl3,trichlorophosphane
+PF3,trifluorophosphane
+PF5,pentafluoro-lambda5-phosphane
+SiF4,tetrafluorosilane
+C2F6,"1,1,1,2,2,2-hexafluoroethane"
+C3F8,"1,1,1,2,2,3,3,3-octafluoropropane"
+C3H4F2,"1,1-difluoroprop-1-ene"
+C3HF5,"1,1,3,3,3-pentafluoroprop-1-ene"
+CH3CN,acetonitrile
+SF5CF3,pentafluoro(trifluoromethyl)-lambda6-sulfane
+Ar+,argon
+H+,hydron
+He+,helium
+Xe+,xenon
+Br+,bromide
+S+,sulfane
+CF3+,trifluoromethyl radical
+CHF2+,difluoromethyl radical
+C+,methane
+Ar2+,argon
+ArH+,argon;hydron
+40Ar+,argon
+40Ar2+,argon
+79Br+,bromide
+79Br-,bromide
+C10H8+,naphthalene
+C2H2-,acetylene
+C2H3N+,acetonitrile
+C2H5+,ethyl radical
+C2N2+,oxalonitrile
+C2N+,1-azanidacycloprop-2-yne
+C2O2+,"ethene-1,2-dione"
+C2O4+,oxalate
+C3H5+,2-propenyl
+C3H7+,propane
+C6H6+,benzene
+C6H7+,"2-methylcyclopenta-1,3-diene"
+(CH2)2O+,diethyl ether
+CH2CHOH+,oxirane
+CH2+,methylene
+CH3CHOH+,ethanolate
+CH3O2+,methyldioxy
+CH3OCH2+,ethanolate
+CH3+,carbanylium
+CH4+,methane
+CH5+,hydron;methane
+CH+,carbon(1-) monohydride
+CN+,cyanide
+CO2+,carbon dioxide
+CO3-,carbonate
+CO4-,carbon dioxide;molecular oxygen
+COH+,methanone
+CO+,carbon monoxide
+12C+,methane
+35Cl+,chloride
+133Cs+,cesium
+D3+,molecular hydrogen
+19F+,fluoride
+19F-,fluoride
+H2CN+,"amidogen, methylene-"
+H2O+,oxidane
+H2+,molecular hydrogen
+H3O+,oxidanium
+H3+,hydron
+H5O2+,oxidanium;hydrate
+H7O3+,oxidanium;dihydrate
+HCN+,formonitrile
+1H+,hydron
+2H+,hydron
+1H-,hydron
+2H-,hydron
+He2+,helium
+HeH+,helium;hydron
+4He+,helium
+4He2+,helium
+202Hg+,mercury
+127I+,iodide
+127I-,iodide
+39K+,potassium(1+)
+Kr2+,krypton
+84Kr2+,krypton
+LiCH4+,lithium;methane
+LiCO2+,schembl4093466
+LiCO+,lithium carbonyl
+LiN2+,lithium nitride
+N2Ar+,argon;molecular nitrogen
+N2H+,azanylidyneazanium
+N2O2+,molecular nitrogen;molecular oxygen
+N2OH+,oxidodiazene
+N2O+,nitrous oxide
+N2+,molecular nitrogen
+N3+,azide
+N4+,"1,2,3,4-tetrazatricyclo[1.1.0.02,4]butane"
+NH2+,azanide
+NH3+,azane
+NH4+,azanium
+NO2+,nitrite
+NO2-,nitrite
+NO3-,nitrate
+NOH2O+,nitrosooxidanium
+NO+,nitric oxide
+N+,azane
+Ne2+,neon
+Ne+,neon
+O2H2+,hydrogen peroxide
+O2H+,perhydroxyl radical
+O2+,molecular oxygen
+O2-,molecular oxygen
+O22+,oxygen
+O3-,ozone
+O4+,tetraoxetane
+O4-,tetraoxetane
+OD-,oxidane
+OH-,hydroxide
+16O2+,molecular oxygen
+85Rb+,rubidium
+S2F7+,disulfur heptafluoride
+S2-,disulfur
+SF3+,trifluorosulfanium
+SF4+,tetrafluoro-lambda4-sulfane
+SF5+,haqzduwrnkkmqy-uhfffaoysa-n
+SF5-,haqzduwrnkkmqy-uhfffaoysa-n
+(SF6)2-,sulfur hexafluoride
+(SF6)3-,sulfur hexafluoride
+SF6-,hexafluoro-lambda6-sulfane
+SH-,sulfanide
+SO2F-,fluorosulfinate
+SO2+,sulfur dioxide
+SO3-,sulfite
+32S+,sulfane
+28Si+,silicon
+205Tl+,thallium
+238U+,uranium
+132Xe+,xenon
+132Xe2+,xenon

@@ -1,0 +1,9 @@
+pandas
+torch
+marker-pdf
+pypandoc
+psutil
+matplotlib
+pycountry
+beautifulsoup4
+openpyxl

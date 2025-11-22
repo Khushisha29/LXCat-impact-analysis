@@ -1,0 +1,1002 @@
+Contents lists available at ScienceDirect
+
+Journal of CO2 Utilization
+
+journal homepage: www.elsevier.com/locate/jcou
+
+Plasma activation of CO2 in a dielectric barrier discharge: A chemical kinetic model from the microdischarge to the reactor scales
+
+Martin Alliati, Danhua Mei, Xin Tu⁎
+
+Department of Electrical Engineering and Electronics, University of
+Liverpool, Liverpool L69 3GJ, UK
+
+ARTICLE INFO
+
+Keywords: Dielectric barrier discharge Non-thermal plasma CO2conversion Plasma chemical kinetic modelling Reaction pathways
+
+ABSTRACT
+
+The conversion of CO2 into value-added chemicals or fuels has attracted
+much attention over the past years. Plasma technology represents a
+highly promising alternative due to its non-equilibrium nature, deemed
+crucial for CO2 dissociation reactions. Gaining a deep understanding of
+the reaction mechanisms involved under plasma conditions is essential to
+improve the performance of such processes. Among other theoretical
+calculations, plasma chemical kinetic modelling constitutes a very
+suitable approach to address this challenge. In this work, a
+zero-dimensional model of a dielectric barrier discharge (DBD) reactor
+is applied to CO2 splitting, providing a novel approach for including
+experimental parameters as discharge power and flow rate based on the
+analysis of the different scales involved. The model choices is
+extensively discussed as regards experimental parameters,
+cross-sectional data and the chemical reactions considered. The
+predictions of the model are in good agreement with existing
+experimental data and therefore the model is considered valid to analyse
+the CO2 splitting reaction mechanism based on its results. It is
+concluded that the electron impact dissociation is the dominant process
+towards CO2 conversion, which could explain the low energy efficiency
+achieved since only ∼10% of the electron energy is consumed by
+mechanism. The remaining energy would be lost towards vibrational
+excitation not leading to CO2 dissociation in DBD reactors.
+
+1. Introduction
+
+Turning CO2 into a valuable feedstock by the development of new
+processes for its conversion to value added chemicals or fuels
+constitutes a major challenge already being addressed by scientists and
+engineers all over the world. The large amounts of CO2 emitted on a
+daily basis due to the burning of fossil fuels account for the
+availability of this molecule. In addition, these anthropogenic CO2
+emissions must be reduced due to their effect as a greenhouse gas, as
+well as their negative impact in terms of global warming [1]. For these
+reasons, CO2 splitting has attracted great attention over the past years
+among scientists within the fields of sustainability, renewable energy
+and environmental sciences [2–11].
+
+Unfortunately, CO2 is a highly stable molecule (ΔG kJ mo °=−394 / l) and
+its dissociation is strongly endothermic (ΔH kJ mo °=+280 / l) [2].
+Hence, high conversions are not easy to achieve without a fairly poor
+energy efficiency. Many research efforts have aimed to overcome these
+difficulties, among which plasma processing is presented as a promising
+alternative due to their non-equilibrium nature [12–25]. Electron impact
+reactions provide unique mechanisms for CO2 dissociation that can take
+place at room temperature and atmospheric pressure, this being a major
+advantage of non-thermal plasma technologies in comparison with other
+methods like thermal catalysis [1]. Also, turning a plasma system on and
+off is relatively straightforward, which makes it the ideal complement
+to the promising yet fluctuating renewable energy sources [2].
+
+Dielectric barrier discharge (DBD) reactors have been extensively
+studied for CO2 conversion, partially due to their simplicity [12–25].
+These types of reactors normally operate at atmospheric pressure and
+near room temperature. Moreover, they have a simple design suitable for
+industrial scales and a catalyst can be easily incorporated [14,17–25].
+The energy efficiency of CO2 splitting reactions in DBD reactors
+(typically below 10% at atmospheric pressure [26,27]) needs further
+improvement for this technology to be industrially relevant. In terms of
+syngas production from CO2 reforming of methane, DBD reactors should
+reach an energy efficiency of around 60% to be competitive with both
+existing and emerging technologies. This target can be reduced by a
+factor of 2 or 3 for direct oxidative pathways towards liquid products,
+which is closer to the currently achieved energy efficiency [2].
+
+In the quest for improving the energy efficiency, understanding the
+reaction mechanisms of CO2 conversion is of major importance [2].
+
+E-mail address: xin.tu@liverpool.ac.uk (X. Tu).
+
+⁎ Corresponding author.
+
+Numerical modelling seems to be the best approach for revealing the
+underlying chemistry of this system. Among these simulations, plasma
+kinetic modelling provides a great tool to analyse the relevance of
+various processes leading to conversion. Due to the high computational
+cost of fluid models, non-dimensional models have been developed and
+applied to DBD reactors, yielding reasonable agreement with experimental
+data in most cases [28–35].
+
+In this study, calculations based on a zero-dimensional plasma kinetic
+model of CO2 splitting in a tubular DBD reactor are performed and the
+results are compared with existing experimental data [36]. Once
+validated, the model is used to understand the reaction mechanisms
+involved based on its results. A novel approach to the already existing
+DBD reactor zero-dimensional models is presented in order to incorporate
+the effect of the main experimental parameters in the CO2 conversion,
+namely discharge power and flow rate. To the best of our knowledge, some
+important considerations and approximations included in the model have
+never been tested before. A discussion of the most suitable cross
+sections datasets for the electron impact dissociation is also presented
+based on results reported elsewhere [32,37]. Polak and Slovetsky’s CO2
+dissociation total cross-sectional data [38] was finally selected to
+calculate the CO2 electron impact dissociation rate coefficient, being
+contrasted to experimental results in terms of CO2 conversion for the
+first time. A reduced chemistry set reported in [31] is employed for
+this model, also contributing towards a low computational cost as it
+only involves 17 reactions and 9 species. A reduced electric field (E/N)
+well outside the range of figures reported elsewhere for DBD reactors is
+used. This might have important consequences regarding the main channels
+for CO2 dissociation and the energy efficiency achieved in DBD reactors
+in comparison with that of microwave (MW) discharges. Calculations were
+performed by means of the ZDPlasKin Fortran module (version 2.0a, Sep
+2017) [39]. BOLSIG+ solver (version 03/2016) was employed to calculate
+the rate coefficients of the electron impact reactions [40]. LXCat
+project databases were used for retrieving cross-sectional data [41].
+
+2. Description of the model
+
+2.1. Experimental setup to be modeled
+
+According to the experiments that the model in this study intends to
+represent, a co-axial DBD reactor with no packing will be considered
+(see Fig. 1). In every case relevant to this work, the discharge length
+is 100 mm while there is a 2.5 mm discharge gap (the inner diameter of
+the quartz tube is 22 mm while the outer diameter of the inner electrode
+is 17 mm). Further details on the experimental setup can be found in our
+previous work [36]. Different values for the discharge power and flow
+rate are considered (10 to 50 W and 25 to 125 ml/min, respectively),
+corresponding to different experimental measurements. The
+
+voltage across the gap has been calculated through Lissajous figures,
+leading to a reduced electric field of 56 Td. This value will be used as
+an input parameter throughout all the calculations performed in this
+work. For further information on the method used to calculate E/N from
+Lissajous figures, see ref [42].
+
+2.2. Zero-dimensional DBD reactor model
+
+Zero-dimensional models have been previously applied to plasma kinetic
+modelling of DBD reactors [28-31]. The main simplification of these
+models relies on neglecting any spatial variations of any property in
+the radial and angular coordinates of the tubular reactor,
+i.e. properties only vary along the axial coordinate of the reactor (Z).
+Like in plug flow models of tubular reactors, a slice of reactor with a
+differential length dZ can be considered as a differential element of
+volume within which every property is homogeneous. The slice of reactor
+flows through the reactor from Z = 0 to L (reactor length) with an
+average velocity , considered to be homogeneous in the reactor’s flow
+section for the purpose of this model (planar velocity profile). In
+addition, this magnitude is assumed to be constant along the axial
+coordinate since density (temperature and pressure) variations between
+the reactor’s inlet and outlet are neglected. Therefore, the velocity is
+essentially the ratio between the reactor length (L) and its residence
+time ( ). In fact, this model become non-dimensional when the
+independent variable Z is translated into the residence time ( ). Each
+element of volume flowing through the reactor (Z = 0 to L) can be seen
+as a small batch reactor progressing in time until reaching the
+residence time of the reactor . Then, as expressed in Eq. (1), the
+production or loss process will contribute to the variation of the
+number density of the ith species with respect to residence time
+according to the stoichiometric coefficient of the species in the
+reaction and its reaction rate (rrti). See variable index in Table S3.
+
+(1) 
+
+Plasma discharges in DBD reactors present a filamentary regime for most
+gases and it is certainly the case for [43]. Therefore, the element of
+volume described above passes through a number of filaments as it flows
+through the reactor, facing a high concentration of plasma electrons
+which in turn generate short lived plasma species by electron impact
+reactions. In terms of the non-dimensional model, these filaments, which
+are spatially spread along the axial coordinate of the reactor, can be
+represented as consecutive pulses over time with a certain frequency ( )
+[29]. This parameter has been widely varied among the different
+zero-dimensional models published in the past years, ranging from values
+in the order of the actual voltage frequency (tens of kHz) [29] to
+arbitrarily chosen values like 1 MHz [28] or 30 Hz [31]. Interestingly,
+this frequency of pulses in the model is not strongly related to the
+actual frequency of the voltage applied to the plasma
+
+Fig. 1. Schematic diagram of DBD plasma reactor.
+
+Fig. 2. Scales and parameters in the model of a DBD reactor.
+
+system. In fact, it can be understood in terms of the period resulting
+from the ratio of the distance between two consecutive filaments and the
+velocity of the fluid . That is to say, the frequency of the pulses in
+the zero-dimensional model can be expressed as in Eq. (2), where is the
+average velocity of the fluid inside the reactor and is the space
+between two consecutive filaments (see Fig. 2). Notably, the latter
+quantity brings uncertainty into the model. However, this reasoning
+gives a much narrower range of reasonable values for the frequency of
+pulses, within which it is just a fitting parameter.
+
+(2) 
+
+2.3. Effect of power in the model’s parameters - filament-to-filament scale
+
+Mei et al. showed experimentally that the power deposited on the plasma
+system affects the conversion of [36]. In the referred work, a range of
+power values from 10 to 50 W was covered resulting in an increase from
+17.4 to 22.4% in the conversion. Furthermore, we consider the electric
+field must remain constant regardless of the power value, as the
+breakdown voltage should as well (56 Td for all calculations in this
+work, as measured applying the methodology in [42] to the experimental
+setup of [36]). However, an increase in the power does cause a rise in
+the number of filaments per unit area observed in the system, as
+reported in [44]. Model wise, we propose to take this effect into
+consideration to account for the rise in conversion with power.
+Ultimately, a greater number of filaments implies a shorter spacing and
+so a higher frequency of pulses for the same velocity of the fluid. In
+other words, this implies more pulses in the same residence time and,
+hence, a greater conversion.
+
+The spacing between filaments is not known and a reference value of 1 mm
+was proposed for this model based on experimental observations. Then,
+this magnitude should be slightly above or below that figure for lower
+or higher power deposition figures, respectively. Therefore, a
+dependence between and the power has been proposed (Eq. (3)) according
+to the relationship found experimentally between power and conversion
+[36].
+
+The values of and a are parameters to be found by minimising the
+difference between experimental and theoretical conversion values for
+every power value. In this way, and consequently constitutes the first
+fitting parameter of this model, as in other zero-dimensional models
+[29–31,34].
+
+2.4. Effect of flow rate in the model’s parameter – one-filament scale
+
+As it has been shown experimentally, the flow rate has an inverse effect
+on the conversion, yielding lower conversion at higher flow rates [36].
+To start with, a higher flow rate results in both a shorter residence
+time ( ) and a higher frequency of pulses ( ). These effects cancel out
+and the resulting number of pulses ( ) remains the same regardless of
+the flow rate, as can be seen in Eq. (4), where the residence time of
+the reactor can be expressed as (see Fig. 2).
+
+(4) 
+
+Thus, the above described effects cannot explain the drop in conversion
+on its own and a closer look at a filament is needed to address the
+effect of a reduction in the flow rate. In this model, the space between
+filaments ( ) consists of a filament and a non-filamentary region
+(interpulse), as shown in Fig. 2. In the filament, molecules experience
+collisions with plasma electrons and electron impact reactions occur
+giving rise to more free electrons and reactive plasma species. On the
+other hand, ground state chemistry dominates in the interpulse since no
+plasma electrons are present and the short lived plasma species tend to
+be rapidly consumed in recombination reactions. Hence, the pulses (where
+free electrons are available) are what really drives the conversion of
+in our model.
+
+Although the number of pulses remains the same for every flow rate, it
+can be seen intuitively that each pulse is shorter lived at higher flow
+rates. In fact, the duration of both the pulse and the interpulse
+decrease at higher flow rates. However, as the number density remains
+steady during the interpulse, a shorter interpulse does not have a
+
+noticeable impact in the conversion. By contrast, a lower duration of
+the pulse has a big impact in the number density variation, resulting in
+a smaller overall conversion for the same number of pulses.
+
+The time during which an element of volume sees the pulse depends on the
+width of the filament and the velocity of the fluid, i.e., the flow
+rate. The filament width has been reported to range from 0.1 to 0.2 mm
+[43], so it should be noted that there is roughly an order of magnitude
+between that figure and the space between two consecutive filaments .
+Then, there is also an order of magnitude between the period between
+filaments , which determines the frequency of pulses and the number of
+pulses given a residence time ) and the duration of one filament , which
+drives the CO2 conversion for a given number of pulses ). Besides, the
+duration of a filament in the zero-dimensional model could be expressed
+as .
+
+However, the above stated expression for predicts much greater
+conversion drops than those observed experimentally when increasing the
+flow rate. For this reason, in this study we suggest a balancing effect
+for this relation, proposing that the filament width depends on the
+velocity for the reasons exposed as follows.
+
+First, let’s consider the mechanisms that allow filaments to appear in a
+DBD reactor. Filaments are actually a group of microdischarges that
+occur in the same spot every time the polarity of the electrodes
+changes. A microdischarge lasts for tens of nanoseconds (ns) before the
+electrons reach the positive electrode and the accumulated charge makes
+the local electric field collapse [43]. A filament duration of 30 ns has
+been repeatedly reported in the literature [28–34]. After a polarity
+reversal occurs, the deposited charge facilitates the formation of a new
+microdischarge in the same spot. Although electrons dissipate in tens of
+nanoseconds, it takes tens of micro seconds (µs) for slow-moving heavy
+ions to reach the negative electrode, resulting in a low but
+long-lasting falling ion current. Hence, both the accumulated negative
+charge and the ion current characterises this region in space as a
+microdischarge remnant, after a microdischarge occurred. With a
+frequency of 9 kHz, a voltage polarity reversal occurs every 56 µs. The
+fact that the microdischarge remnant is not fully dissipated before the
+polarity changes also facilitates the formation of a new microdischarge
+in the same spot. This is called memory effect and explains why it is
+actually possible to see filaments in a DBD reactor. If the
+microdischarges were formed on a new spot every time the polarity
+changed, the discharge would appear uniform and no spatially localised
+single filaments could be observed [43].
+
+For the purpose of this model, we will analyse what impact could the
+flow regime have on the memory effect. As the flow regime changes from
+laminar to turbulent, velocity profiles inside the reactor tend to
+become planar. This is a result of more random particle displacements
+and a higher dispersion that tends to make properties homogeneous inside
+a slice of reactor, including the velocity. Thus, a more turbulent flow
+regime could slightly disperse the ions in the microdischarge remnant.
+Also, the velocity in the proximity of the inner walls of the reactor is
+higher in turbulent flow, as the velocity profile becomes planar. This
+could have an impact on how electrons are deposited in the positive
+electrode, enhancing dispersion as they move towards the electrode and
+giving the deposited electrons a wider spread over the cathode surface.
+All these dispersion effects could very slightly affect the memory
+effect of the microdischarges. This effect might be very small as
+filaments are indeed observed for every flow rate, but it could be
+understood as a minimal step towards homogenising the discharge (which
+would be the result of having no memory effect at all). Nevertheless,
+this effect could suffice to slightly disperse the microdischarge
+remnant and moderately widen the spot where a next microdischarge could
+occur, hence resulting in an enlargement of the filament width.
+
+Based on this hypothesis, we propose a dependence between the
+
+filament width and the velocity of the fluid, which has an effect in the
+time a molecule spends in a filamentary region (duration of the pulse in
+terms of the model, ). As stated above, the duration of the pulse has a
+great impact on the conversion and it is what really drives the results
+for a constant number of pulses, . Therefore, Eqs. (5) and (6) are
+proposed, where the values of and b are parameters to be found by
+minimising the difference between experimental and theoretical
+conversion figures for every flow rate value.
+
+Hence, as long as b is positive and smaller than 1, this effect could
+moderate the negative effect that a higher velocity has on the
+conversion values predicted by the model. In this way, the duration of
+the pulse (or the width of the filament, ) works as the second fitting
+parameter of this model.
+
+2.5. Electron density in one filament - microdischarge scale
+
+Considering the velocity of the fluid and the width of one filament, the
+time spent by a molecule inside the filament (model-wise, the duration
+of the pulse ) ranges from around 15,000 to 37,000 µs. In that period of
+time, around 300 to 700 microdischarges occur, as the frequency of the
+applied voltage is 9 kHz and there is one microdischarge per half-cycle.
+This means, there is one microdischarge every 56 µs ( ), each of them
+consisting of 30 ns of an actual microdischarge (electron avalanche and
+plasma channel) plus an afterglow until the next microdischarge. In our
+model, this happens every time the element of volume passes through a
+filament (that is times). See Fig. 2 for a comparison between the
+different scales involved.
+
+For this behaviour to be computationally represented, a time step in the
+order of a fraction of a nanosecond would be needed. Then, it would
+require around time-steps numerically integrated to build up to a
+residence time of around tens of seconds. For this reason, the hundreds
+of microdischarges taking place when the element of volume passes
+through a filament will be averaged over the period of time inside that
+filament . The purpose of this simplification is to obtain an average
+electron density valid for the whole period inside the filament, . Then,
+the number of microdischarges in one filament can be expressed as in Eq.
+(7), leading to Eq. (8) for .
+
+(7) 
+
+(8) 
+
+As stated above, the plasma electrons during a microdischarge are
+considered to last for around 30 ns [43], peaking somewhere in that
+interval and becoming zero from 30 ns onwards until the next
+microdischarge (until is reached). According to the literature, the
+electron density Ne can reach values around - cm-3 [43]. Thus, the
+electron density in one microdischarge will be modeled as a function of
+time standing at 0 cm-3 at 0 ns, promptly reaching a maximum of cm-3 at
+3 ns and subsequently falling steadily to 0 cm-3 at 30 ns (Ne(t)). Then,
+the right hand side of Eq. (8) would modify as in Eq. (9).
+
+(9) 
+
+From then on, an average electron density that is valid for the duration
+of one filament in our model ( ) can be obtained as expressed in Eqs.
+(10) and (11).
+
+Table 1 Reduced reactions set. All rate constants in unless indicated
+otherwise.
+
+&lt;sup>1Rate coefficient calculated by BOLSIG + solver for a given
+EEDF.
+
+(10) 
+
+(11) 
+
+In this way, an average electron density of is obtained, which will be
+considered constant for the duration of the pulse in our model ( , which
+as it has been said, involves thousands of microdischarges). This value
+will be used for all calculations over the range of power and flow rate
+values covered in this study. It should be noted that this value depends
+on the duration of the pulse (30 ns) and (which depends on the frequency
+of the applied voltage, 9 kHz) rather than on .
+
+To the best of our knowledge, an electron density of is a reasonable
+value to base our approximation on as it is within the range of values
+reported for DBD reactors . Furthermore, values in this region have been
+used in several published modelling works [28–34]. However, our
+calculated conversion is very sensible with respect to the electron
+density. Hence, the latter is acting as a third fitting parameter of our
+model, even though it is not intended to. This leads to a discussion
+about what a relatively arbitrarily chosen electron density means for
+the simulation. Several plasma phenomena lie under this umbrella over
+which we do not have control and cannot model accurately. Moreover, even
+if we could measure the electron density precisely, the only way we
+could account for those phenomena is to have an average electron density
+that yields good agreement with the experiments in terms of conversion.
+
+For these reasons, we consider this approach acceptable as long as the
+electron density fits within the reported values for DBD reactors. From
+a maximum electron density of , the average electron density of arises.
+It should be mentioned that the exact same figure has been used for all
+calculations in this work.
+
+2.6. Summary of the reactor model
+
+For the reasons exposed above, our model consists of a number of pulses
+( ) that occur every seconds. Each pulse will have a constant electron
+density held for and an interpulse of around ( ) seconds with no plasma
+electrons, until the element of volume reaches the next filament or
+pulse (see Fig. 2). This new approach implies a very low computational
+cost, which allows us to perform calculations effectively (typically in
+the order of hours of computational time). Table S1 summarises the
+parameters of each
+
+calculation performed in this work.
+
+As described above, the unknown physical aspects of a DBD discharge lead
+to the three fitting parameters of this model, namely, the frequency of
+pulses ( ), the duration of the pulse ( ) and the average electron
+density ( ). The former is related to the spacing between filaments and
+represents the effect of the discharge power in the conversion of . The
+second fitting parameter represents the time spent by a molecule inside
+a filament and depends on the fluid velocity or flow rate. Notably, the
+ratio between and is equal to that between the plasma volume and the
+total reactor volume. At this point, it should be highlighted that this
+selection of fitting parameters is equivalent to that of other
+zero-dimensional models [29–34]. However, the way in which these fitting
+parameters are derived in our model results in a narrower range of
+reasonable values for them (no more than one order of magnitude in both
+cases).
+
+Finally, the electron density is not intended as a fitting parameter,
+however it should be regarded as such since the conversion predicted by
+the model is very sensitive to it. Although this limits the reliability
+on our model, there is no further improvement we could do at the moment.
+The average electron density is calculated considering a maximum
+electron density of and a microdischarge duration of 30 ns. Both values
+agree with the state of the art of plasma kinetic modelling of DBD
+reactors [29–35].
+
+2.7. Chemical model
+
+For the chemical model, a reduced set of reactions developed and
+reported in [31] was employed. This reduced set consists of 9 species
+(see Table S2) and 17 reactions, which implies a much lower
+computational cost than the complete set (around 42 species and 500
+reactions) [28,31,33]. The reactions considered, shown in Table 1,
+involve 7 electron impact reactions (R1 to R7), as well as 5 reactions
+among ions (R8 to R12) and 5 between neutral species (R13 to R16). As
+regards conversion by electron impact reactions, the main mechanisms
+identified in [28] are taken into account, i.e., electron attachment
+(R1), electron impact dissociation (R2) and total ionisation (R3).
+Vibrationally excited states of were not taken into account in this
+model for the reasons presented in Section 2.8.
+
+In addition, electron impact dissociation reactions were considered for
+and (R4 and R5, respectively), while for the latter two electron
+attachment reactions were also included in the model (R6 and R7). The
+significance of these reactions for the simplified model relies
+partially on the fact that they compete with decomposition reactions for
+the plasma electrons, causing the conversion to flatten as the
+
+&lt;sup>2Three-body process, rate coefficients in cm6s-1.
+
+and O3 densities increase. Among the ionic and neutral reactions,
+recombination processes of O atoms (or anions) with CO to form CO2 are
+also part of the reaction set. Likewise, these reactions contribute to
+flatten the conversion of CO2 at long residence times [31]. For further
+details of this model and its validity, refer to [31].
+
+2.8. Vibrationally excited states of CO2
+
+The role of vibrationally excited states of CO2 in its dissociation and
+the decision to exclude them from the chemistry set is addressed in this
+section. A fluid model for CO2 dissociation reactions in a parallel DBD
+reactor including an extensive description of the vibrational kinetics
+can be found in [47]. Treanor et al. [48] showed that under conditions
+characterised by a vibrational temperature well greater than the
+translational temperature, a population inversion in the energy levels
+can be achieved. Therefore, as discussed in [33,43], these largely
+populated highly excited anharmonic vibrational levels are deemed
+crucial for the dissociation of the CO2 molecule. In this regard, a
+study of the vibrational distribution function for CO2 comparing MW and
+DBD discharges (at 20 Torr and atmospheric pressure, respectively) can
+be found in [33]. According to their results, the population of high
+vibrational states is a result of the rates of (or the competition
+between) the different processes involved, namely, electron impact
+vibrational excitation (exciting CO2 molecules), vibrational-vibrational
+exchange collisions (which favour highly excited states) and
+vibrational-traslational relaxations (which de-excite vibrationally
+excited CO2 molecules as it thermalises the gas). In addition, there are
+factors that favour or impede the different mechanisms involved. For
+instance, a long duration of a plasma pulse will favour vibrational
+excitations as it implies availability of free energetic electrons. On
+the other hand, a high pressure will contribute to the de-excitation of
+CO2 molecules back to their ground state. Indeed, it is concluded that
+the pressure enhances the reaction rate of vibrational-translational
+(VT) transitions as collisions with ground state CO2 molecules are more
+likely [33].
+
+Interestingly, MW discharges represent a plasma duration in the order of
+milliseconds (far greater than DBD in the order of nanoseconds) and are
+usually performed at low pressures, which favours largely populated high
+vibrational states that can certainly lead to dissociation. On the other
+hand, DBD discharges are often performed at atmospheric pressure so the
+vibrational-translational relaxations are orders of magnitude faster
+than that in a low pressure MW discharge (in a DBD reactor,
+vibrationally excited states can thermalise in a few microseconds).
+Moreover, DBD microdischarges last for a very short time (in the order
+of nanoseconds), which is detrimental for the electron impact
+vibrational excitations. The vibrational excitation gained in a
+microdischarge (lasting for nanoseconds) is then thermalised (lost)
+before the next microdischarge takes place (after several microseconds).
+These factors explain why long-lasting large populations of high
+vibrational states are not achieved in DBD discharges, thus CO2
+dissociation must proceed through other mechanisms such as electronic
+excitations [33].
+
+2.9. Plasma kinetic model – cross-sectional data
+
+The rate coefficients for electron impact reactions were calculated by
+the Boltzmann solver BOLSIG+ [40] implemented in the ZDPlasKin Fortran
+module as a function of the corresponding cross sections. Crosssectional
+data was retrieved from different databases within the LXCat project
+[41]. It should be highlighted that the Electron Energy Distribution
+Function (EEDF) was calculated based on complete and consistent
+(whenever possible) sets of cross sections for each involved species.
+The complete and consistent IST-Lisbon Database reported in [37] and
+available in LXCat ([41]) was used for CO2 and O2 processes.
+Importantly, this cross-sectional data has been validated against
+measured swarm data [37]. For CO, O3 and O species, complete
+cross-sectional data sets from Morgan database were adopted [46]. The
+cross sections for the three body recombination R7 were also taken from
+the latter database. With all this data, the EEDF was calculated and
+then used to integrate the corresponding cross sections in order to
+obtain the rate coefficients of the electron impact reactions included
+in the model (R1 to R7). Specific references to the databases can be
+found in Table 1 and a list of the collisional processes considered for
+the calculation of the EEDF is included in the Supporting Information
+(Table S4).
+
+Regarding the completeness of the IST-Lisbon database for CO2 processes,
+it should be noted that only one superelastic collisional process is
+included, namely, de-excitation from v1 ≡ (010) to the ground level, v0.
+This is the dominant de-excitation process while a second superelastic
+process would be required for a better accuracy of the calculated swarm
+parameters at reduced electric fields below ∼1 Td [37], which is not the
+case in this study. In addition, the effect of the superelastic process
+v v 1 0 → is particularly important at low electric fields but barely
+noticeable above 10 Td [37], while our work considers 56 Td.
+
+Although the superelastic collision v v 1 0 → is included in the set,
+the number density of CO2(v1) will always be zero since vibrationally
+excited states of CO2 were not considered in this model (see Section
+2.8). Thus, this superelastic collision will never account for an energy
+gain towards the EEDF. To assess the impact of this approximation, the
+EEDF calculated with BOLSIG+ for the case of this study (no CO2(v1)) was
+compared with that obtained for a relative CO2(v1) population of 0.076
+at 300 K, according to [37]. The results indicate that EEDFs considering
+superelastic collisions tend to be slightly shifted towards higher
+electron energies (as these processes can effectively transfer energy
+back to the electrons). Then, our approximation could result in a minor
+underestimation of the electron impact rate coefficients. However, the
+effect of superelastic collisions in the EEDF vanishes for reduced
+electric fields beyond 10 Td and this approximation is considered
+suitable for our work. A comparison of the calculated EEDFs, electron
+energies and rate coefficient for both cases at different electric
+fields can be found in the Supporting Information (Figures S1-S5 and
+Table S4).
+
+The rate coefficient for CO2 dissociation through electron impact
+excitation deserves a special mention as this process has been reported
+to be the dominant mechanism for CO2 conversion in DBD reactors [32].
+Hence, the cross-sectional data employed for its calculation is a
+crucial factor for the validity of the model and the results obtained.
+Numerous cross section data sources are available for the CO2 electron
+impact excitation and the direct association of these processes with CO2
+dissociation has been extensively studied in [32] and [37]. To start
+with, the IST-Lisbon dataset is based on the excitation processes
+described by Phelps [49], with thresholds of 7 and 10.5 eV. These cross
+sections have been extended to a wider range of electron energy as
+described in [45]. However, these cross sections are likely to involve
+more processes than only dissociation, as explained in [37]. Then,
+assigning Phelps’s 7 and 10.5 eV cross sections to CO2 dissociation is
+not straightforward and may result in an overestimation of the
+dissociation rate coefficients, as proved in [32] and [37]. On the other
+hand, Itikawa’s Database ([50]), also available in LXCat, has been
+widely used in studies involving zero-dimensional plasma kinetic models
+[28–31]. However, this dataset has been recently reported to
+underestimate the CO2 dissociation reaction rate coefficients [32,37].
+Besides, Polak and Slovetsky’s cross sections [38] have been reported to
+satisfactorily represent CO2 dissociation. In this theoretical study,
+the authors described a total dissociation cross section showing two
+energy thresholds, in a similar fashion as Phelps’s 7 and 10.5 eV
+datasets. Regardless of the shape, Polak’s cross sections are much
+smaller in magnitude than those of Phelps, which could contribute to
+compensate the overestimation reported for the latter dataset [32,37].
+Among these and other excitation cross sections, Phelps’s 7 eV and
+Polak’s datasets appear to be the most suitable to model CO2
+dissociation, according to results in [32] and [37], respectively.
+
+In this work, the recommendation given by the authors of the IST-Lisbon
+Database was followed [37]. Therefore, Polak and Slovetsky’s
+dissociation total cross-sectional data was used to calculate the
+dissociation rate coefficient (R2). Nevertheless, these cross sections
+were integrated over the EEDF calculated with the IST-Lisbon Database
+complete and consistent set of cross sections (excluding Polak’s cross
+sections).
+
+3. Results and discussion
+
+3.1. Validation of the model – average electron density
+
+The averaging procedure described in Section 2.5 has been verified with
+the calculation described below. A simulation of one single filament has
+been performed, involving 662 microdischarges (modelled as 30 ns-long
+pulses) repeated every 55.6 s ( ). Then, each microdischarges has an
+afterglow of (55.6 µs - 30 ns) seconds. This corresponds to a frequency
+of 9 kHz (that of the applied voltage) and covers a reaction time of
+3.67 10-2 seconds, i.e. in this verification ( ). This and corresponds
+to the calculations with a flow rate of 25 ml/min. The electron density
+in this case was a function of time peaking at cm-3 in an interval of 30
+ns, as described in Section 2.5. Then, the conversion computed by such
+calculation was compared with that of a calculation consisting of an
+average electron density of cm- (as found in Section 2.5) kept constant
+for seconds. The results are 0.3029% and 0.3028%, respectively. The
+absolute error is 0.0001% while the relative error equals 0.0003
+(0.03%). Therefore, it can be concluded that this approximation is
+reliable for the conditions being addressed in this paper. This involves
+low temperatures and low conversion values, where the chemistry of the
+system is not too complex and the contribution of reactions between
+heavy particles in the afterglow is orders of magnitude smaller than
+that of electron impact processes during the pulse.
+
+The computational time saved through this approximation outweighs any
+concern about the already negligible error introduced by it. The first
+calculation (662 pulses) ran for 7.5 h. By contrast, it took less than a
+minute to complete the averaged calculation, therefore resulting in a
+time saving of more than 99%. Thus, we consider this approximation not
+only reliable but also necessary within this particular framework.
+
+3.2. Validation of the model – matching experimental data
+
+The validity of the model is only achieved once its results are
+contrasted with the experimental measurements it intends to represent.
+Selectivity towards CO varies around 96–98 % for every case, making it
+useless to compare the experimental measurements with the model results.
+Therefore, only conversion will be used to match the experimental and
+calculated values. Overall, for the model proposed in this work, the
+calculated conversion figures are in very good agreement with the
+experimental data, with only one measurement having a relative error
+above 5%. The complete set of results including every
+
+Fig. 3. CO2 conversion at different discharge powers and 25 ml/min.
+
+Fig. 4. CO2 conversion at different flow rates and 50 W.
+
+calculation is presented in Table 2. In addition, the results are shown
+in Figs. 3 and 4 for variable power and flow rate figures, respectively.
+Combined results in terms of SEI (specific energy input, defined as the
+ratio between the power and the flow rate) are presented in Fig. 5. The
+definitions of the variables used to process the data are as follows.
+
+Results. All calculations with i.d. (quartz tube) = 22 mm, o.d. (high
+voltage electrode) = 17 mm, gap = 2.5 mm, length = 100 mm.
+
+&lt;sup>a The relative error is defined as the difference between the
+experimental and model conversions divided by the average of both.
+
+Fig. 5. CO2 conversion at different SEI values by changing discharge
+power or CO2 flow rate.
+
+Conversion (%) =
+
+(12) 
+(13) 
+
+Energy efficiency (%) =
+
+(14) 
+
+3.2.1. Effect of discharge power
+
+As can be seen in Fig. 3, the calculated conversion curve over power
+variations seems to satisfactorily represent the experimental data. The
+major deviation is found at 50 W (SEI = 120 kJ/l, see Fig. 3), where the
+calculated conversion is 0.3% greater (a relative error of 1.3%). It is
+expected that higher power values lead to inaccuracies in the model as
+it is not able to predict saturation. In fact, a similar behaviour has
+been reported previously for SEI figures above 100 kJ/l [31]. However,
+the system becomes inefficient beyond that SEI value. The model has been
+optimised for the range of parameters that yield relatively high
+efficiencies, while deviations are expected to occur outside those
+ranges. Indeed, the range of applicability of this model covers the most
+relevant operating conditions in terms of energy efficiency. As regards
+the conversion of CO2, it is noticeable that values up to around 20% can
+be modelled accurately with the current reduced chemistry set, as
+opposed to the reported limit of 15% [31]. This difference may be
+related to the chosen Polak’s cross sections for the electron impact CO2
+dissociation reaction as it affects the relative contribution of the
+different processes leading to CO2 splitting.
+
+3.2.2. Effect of flow rate
+
+On the other hand, the model provides acceptable yet less satisfactory
+results for the calculations involving different flow rates. In most
+cases, the calculated results seem to overestimate the conversion. It
+can be seen in Fig. 4 that this positive error is balanced by a negative
+error as the flow rate increases. In fact, the conversion for 125 ml/min
+is indeed underestimated by 0.6% (relatively, 5.5%). Overall, these
+results are deemed to be acceptable in terms of variable flow rate.
+
+3.2.3. Overall results
+
+According to our results, this model has proved to accurately represent
+the chemistry of the system up to conversion values of around 20%, with
+power values ranging from 10 to 40 W. However, most
+
+calculations at a power of 50 W show slight discrepancies with the
+experimental measurements, regardless of the conversion value.
+
+Overall, the proposed model presents a reasonable agreement with the
+experimental measurements in terms of conversion for the full range of
+experimental measurements taken into account. Thus, this validates the
+model and indicates it is reliable enough so as to analyse the reaction
+mechanism based on its results (see Section 3.3).
+
+3.3. Reaction pathways analysis
+
+As mentioned above, in this study we employed a reduced chemistry set
+for the conversion of developed and reported in [31], consisting of 9
+species and 17 reactions (see Table 1). Such simplification may lose
+reliability at higher conversion values as the chemistry of the system
+becomes more complex and neglected reactions become relevant. However,
+it seems that point has not been reached in this study. According to our
+results, the entire range of conversion covered by the experiments in
+[36] is well reproduced by the calculations yielding a reasonable
+agreement in every case.
+
+As the experiments intended to model were performed at atmospheric
+pressure and ambient temperature, the initial number density is set to
+in all cases. This figures drops to for the highest conversion achieved
+(22.7%). The main products of these reactions are CO and , with final
+number densities of about and , respectively (also for a conversion of
+22.7%). The major by-product is , several orders of magnitude below the
+final density of (3.96 1015 cm-3). These results are illustrated in Fig.
+6.
+
+3.3.1. Mechanisms for CO2 splitting and recombination
+
+As stated above, the reduced reactions set considered for this study
+includes three possible mechanisms for decomposition, namely, electron
+attachment (R1), electron impact dissociation (R2) and electron impact
+total ionisation (R3). Their relative contributions to the observed
+conversion figures will be determined by their rate coefficients which
+in turn depend heavily on the cross sections used for each process. As
+it has been mentioned, Polak and Slovetsky’s cross sections were used
+for the electron impact dissociation [38] while the IST-Lisbon database
+available in LXCat were used for the remaining two reactions [45]. With
+these cross sections, the BOLSIG+ solver predicts that the highest rate
+coefficient is that of the electron impact dissociation, R2 (around for
+initial conditions). The electron attachment reaction (R3) has a rate
+coefficient of around at initial conditions while that of the total
+ionisation
+
+Fig. 6. Number density of CO2, CO and O2 and O3 (25 ml/min and 50 W).
+
+Fig. 7. Reaction rate of main reactions (25 ml/min and 50 W).
+
+(R1) is even an order of magnitude lower (2.9 × 10-14 cm3 s -1). With
+these results, it can be concluded that the electron impact dissociation
+is the dominant mechanism for CO2 splitting accounting for around 95% of
+the conversion. The electron attachment represents the remaining 5%
+while the contribution of the total ionisation to the CO2 conversion is
+negligible (see Fig. 7 for a comparison between reaction rate values).
+This is in qualitative agreement with the results reported by Ponduri et
+al. [47], while the relative contribution of each dissociation channel
+changes quantitatively. The latter study consists of a DBD time- and
+space-dependent fluid model including an exhaustive description of the
+vibrational kinetics of CO2. The authors also conclude that the electron
+impact dissociation represents the main channel for CO2 dissociation,
+accounting for approximately 80% of the CO production. In addition, our
+results qualitatively agree with [32,37]. These DBD models predicted a
+more balanced contribution of these processes as a result of the cross
+sections used [28–31]. It should be mentioned that the study from where
+the reduced set of reactions was taken ([31]) used Itikawa’s dataset, as
+stated in [32]. As described in Section 2.9, this database has been
+proven to underestimate the electron impact dissociation rate
+coefficient (compared to the Polak’s dataset to be used in this study),
+making its contribution comparable to that of the total ionisation
+reaction.
+
+It should be highlighted that the reduced electric field in all these
+calculations is 56 Td according to the experimental measurements
+(Lissajous figures) [36,42]. This yields an average electron energy of
+around 2.21 eV. According to the literature, the contribution of the
+total ionisation overtakes that of the electron attachment by several
+orders of magnitude at higher E/N values, which are out of the scope of
+this work [32].
+
+The CO produced is rather stable in the plasma and therefore it is the
+major product of this reaction. Nevertheless, this molecule does take
+part in some recombination reactions (R8 and R16). The recombination
+with oxygen anions (O−, R8) accounts for 73% of the CO loss processes,
+whereas the three-body recombination with O radicals represents the
+remaining 27%. See Figure S5 for a comparison between the reaction rates
+of minor contributing reactions (excluding R2, R14 and R15).
+
+Regarding O radicals, the recombination with CO molecules (R16) is not
+their main consumption mechanism as its rate coefficient is one order or
+magnitude lower than that of other processes involving these species.
+After an initial prevalence of reaction R13 which builds up an initial
+O2 density, reactions R14 and R15 take over. These reactions require an
+initial concentration of O2 and O3 to occur and became
+
+Fig. 8. Scheme of the proposed reaction mechanism.
+
+Fig. 9. Energy efficiency at different SEI values by changing discharge
+power or CO2 flow rate.
+
+preponderant once achieved. Their reaction rates are almost
+indistinguishable from one another, both being in and around ∼ 6 × 1017
+cm−3 s -1 (see Fig. 7). These two reactions with high rates explain the
+formation of O2 in this chemistry set. The main reaction mechanisms
+within this chemistry set are depicted in Fig. 8, where black arrows
+represent CO production while blue ones denote O2 production.
+Recombination reactions are indicated with red arrows.
+
+3.4. Energy efficiency
+
+A discussion on the energy efficiency of this system is presented in
+this section. The values obtained for these experiments and calculations
+are presented in Table 2 and shown in Fig. 9. An analysis of the
+agreement between the model and the experimental results will not be
+included as it is essentially the same as that of the conversion,
+already addressed above. By contrast, it is relevant to compare the
+efficiency values obtained with what has been previously reported for
+CO2 splitting in DBD reactors, as well as to discuss the potential
+reasons for the efficiency achieved.
+
+DBD reactors are known for their low efficiency in CO2 splitting
+reactions, rarely exceeding 10%. An exhaustive collection of data on DBD
+energy efficiency can be found in [26,27]. The values presented in this
+work fit within that description and also the decrease in the efficiency
+as the SEI grows is also consistent with the literature. A maximum
+efficiency of 8.3% was found in this work for a rather low conversion of
+17.4%. For higher conversion values, the efficiency drops down to, for
+instance, 2.2% at a conversion of 22.7%. The dependence of the
+efficiency with the power seems to be somewhat stronger than with the
+flow rate. A further analysis of these values can be found in the study
+from where the experimental data has been taken [36]. In the next
+section, a discussion about the role of the different factors that are
+believed to affect the energy efficiency of the CO2 splitting process is
+presented (a necessary comparison between MW and DBD discharges is also
+included).
+
+3.5. Reduced electric field and vibrationally excited states
+
+As opposed to DBD reactors, MW normally show a greater energy
+efficiency, varying from around 10% up to even 90% [26,27] (see the
+effect of the operating pressure below). It is often claimed that the
+reason for the difference in their efficiencies is the range of reduced
+electric fields they work on, placing vibrationally excited states of
+CO2 as the main channel for dissociation in MW discharges. While DBD
+
+Fig. 10. Energy loss fractions towards different electron impact
+processes as a function of E/N, calculated by BOLSIG+ with the cross
+sections used in this study.
+
+reactors have been reported to operate at high reduced electric fields
+(E/N), in the order of 200 Td; MW discharges exhibit a smaller E/N,
+around 50 Td [31,33]. Indeed, it can be seen in Fig. 10 that most of the
+electron energy is consumed towards electronic vibrational excitation
+processes at 50 Td, while the relevance of these processes is negligible
+at higher E/N. At around 200 Td, the majority of the electron energy is
+directed to electron impact excitations (see Fig. 10, calculated by
+BOLSIG+ with the cross-sectional data sets used in this work). Then, the
+high efficiency of the MW discharges has been associated with the low
+E/N figures while the low efficiency in DBD reactors has been linked to
+the lack of vibrational excitation due to the higher E/N [28,31,33,34].
+
+However, the latter argument about the lack of vibrational states at
+∼200 Td cannot explain the low efficiency of, at least, this DBD
+reactor. As mentioned above, the reduced electric field used in this
+work is 56 Td, calculated from experimental measurements obtained
+through Lissajous Figures (method described in [42] applied to our
+previous work [36]). The method employed allows measurement of the
+voltage across the gap, importantly excluding the voltage drop through
+the dielectric barrier. It is important to notice that this value is in
+the order of those associated with MW discharges and differs
+considerably from 200 Td, reported elsewhere and thought to characterise
+DBD discharges [31,33].
+
+At this point it is important to notice that the high efficiencies
+achieved by MW discharges require this reactor to be operated at low
+pressure. Moreover, when these discharges are performed at atmospheric
+pressure, their efficiency drops significantly to values slightly
+greater than those of DBD discharges (for a collection of data from
+different experimental works, see [26,27]). Then, it is apparent that
+the pressure plays a role in the efficiency of the CO2 splitting
+reaction. In this regard, it has been theoretically shown in [51] that
+the highest conversions and energy efficiencies of CO2 splitting
+reactions performed on MW discharges are achieved at 300 mbar, which is
+in agreement experimental results. Moreover, as stated in Section 2.8,
+long-lasting large populations of high vibrational states are not
+achieved in DBD reactors as the vibrationally excited molecules
+thermalise before the next microdischarge occurs, as a result of the
+combination of high pressure and low duration of plasma that
+characterises these types of discharges [33].
+
+The present work can now be regarded with these very important results
+in mind. According to Fig. 10, at 56 Td, most of the energy imparted to
+the electrons by the plasma is directed towards vibrational excitation.
+For that reason, we believe that vibrational excitation does indeed take
+place in DBD reactors, although leading to de-excitation rather than
+dissociation, due to the characteristic pressure and plasma duration of
+these discharges. Then, the low energy efficiency achieved in this work
+(and other DBD discharges) seems reasonable as vibrational excitation
+consumes ∼ 90% of the energy imparted by the plasma and is not
+translated into CO2 conversion. In other words, ∼ 90% of the energy
+given to the system is lost in a vibrational excitation – de-excitation
+sequence. Moreover, very little energy (just above 10%) is transferred
+to electronic excitation of CO2, which has been shown in this work
+(Section 3.3) to be the main contributor to the dissociation process.
+
+Finally, through this discussion, we can validate our approach of
+considering vibrational excitations for the calculations of the EEDF,
+but not including reactions between vibrationally excited states in the
+chemistry set as a channel for CO2 dissociation.
+
+4. Conclusions
+
+In this work, we proposed a novel approach to the already existing
+zero-dimensional DBD plasma kinetic models in order to include the
+effect of experimental parameters as discharge power and flow rate. In
+addition, an average electron density calculated over hundreds of
+microdischarges was used as an approximation, resulting in a great
+reduction of the computational cost implied within this particular
+framework. Our DBD model was applied to CO2 splitting reactions and
+contrasted with readily available experimental data covering a range of
+power and flow rate figures. A reduced chemistry set for CO2
+dissociation reactions was employed [31], together with Polak and
+Slovetsky’s cross-sectional data for the CO2 electron impact
+dissociation rate coefficient [38].
+
+Overall, the results of this model represent the experimental
+measurements accurately within the whole range of operational parameters
+tested, with a maximum relative error of around 5.5%. Upon this
+validation of the model, the underlying chemistry and reaction
+mechanisms involved in the CO2 conversion were analysed. Our results
+indicate that, under the operational conditions considered in this work,
+the electron impact dissociation constitutes the dominant mechanism for
+the CO2 splitting, accounting for 95% of the CO2 conversion. Finally,
+some insights on the underlying reasons of the low energy efficiency
+shown by DBD reactors are given. Our results, coupled with important
+findings published elsewhere [33], suggest that most of the energy input
+is wasted towards vibrational excitations that have already been proven
+not to lead to CO2 dissociation under conditions of short exposure to
+plasma electrons and atmospheric pressure, which characterise DBD
+reactors.
+
+Acknowledgements
+
+We acknowledge the European Union (EU) and Horizon 2020 funding awarded
+under the Marie Skłodowska-Curie action to the EUROPAH consortium (grant
+number 722346).
+
+Appendix A. Supplementary data
+
+Supplementary material related to this article can be found, in the
+online version, at doi:https://doi.org/10.1016/j.jcou.2018.07.018.
