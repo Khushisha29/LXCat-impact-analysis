@@ -38,7 +38,7 @@ def write_to_results_excel(sheet_name, dataframe, output_dir="results/data",
     if csv_path and not keep_csv:
         if os.path.exists(csv_path):
             os.remove(csv_path)
-            print(f"🗑 Deleted raw CSV: {csv_path}")
+            print(f"Deleted raw CSV: {csv_path}")
         else:
             print(f"⚠ CSV not found for deletion: {csv_path}")
 
@@ -90,32 +90,17 @@ def run_pipeline():
 
     subprocess.run([
         "mamba", "run", "-n", "lxcat_cde", "python",
-        "-c",
-        (
-            "from utils.species_extraction_pipeline import run_species_extraction_pipeline; "
-            "run_species_extraction_pipeline("
-            "raw_txt_folder='documents/txts/',"
-            "intermediate_folder='documents/intermediate/',"
-            "manually_resolved_csv='documents/data/Pubchem_species_mapping.csv',"
-            "summary_csv='documents/species_summary.csv',"
-            "lxcat_csv='documents/data/LXCat_species_mapping.csv',"
-            "lxcat_out_csv='results/data'"
-            ");"
-        )
+        "utils/call_species_extraction.py"
     ], check=True)
 
-    # Remove intermediate folder and summary file
+    # Remove intermediate folder
     intermediate_folder = "documents/intermediate/"
-    summary_file = "documents/species_summary.csv"
 
-    if os.path.exists(intermediate_folder) and os.path.isdir(summary_file):
+    if os.path.exists(intermediate_folder):
         shutil.rmtree(intermediate_folder)
-        shutil.rmtree(summary_file)
         print(f"Deleted intermediate folder: {intermediate_folder}")
-        print(f"Deleted summary file: {summary_file}")
     else:
-        print("intermediate folder or summary file not found — skipping delete")
-
+        print("intermediate folder not found — skipping delete")
 
     # Step 8: Store results
 
@@ -149,7 +134,6 @@ def run_pipeline():
         csv_path=bs_csv
     )
 
-    # Store country fetch result
     ct_csv = "results/data/country_fetch_outputs.csv"
     ct_df = pd.read_csv(ct_csv)
     write_to_results_excel(

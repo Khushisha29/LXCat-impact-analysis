@@ -53,4 +53,4 @@ def batch_convert_md_folder(input_root: str, output_root: str):
         out_file = output_root / f"{md_file.stem}.txt"
         convert_md_to_txt(md_file, out_file)
 
-    print("\nAll files converted successfully!")
+    print("\nMD to TXT Conversion Completed successfully!")

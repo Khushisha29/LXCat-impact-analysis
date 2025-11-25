@@ -356,7 +356,7 @@ def filter_lxcat_gases(df_path, lxcat_path, out_dir):
     out_path = output_dir / "final_lxcat_species.csv"
 
     df.to_csv(out_path, index=False)
-    print(f"[lxcat] Saved: {out_path}")
+    print("\nSpecies Extraction Pipeline Completed Successfully!")
 
 
 ### Main execution ###
