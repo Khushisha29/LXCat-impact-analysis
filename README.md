@@ -41,7 +41,7 @@ This fully automated pipeline processes raw scientific PDFs through multiple sta
 
 1. **PDF to MD & JSON Conversion**
 
-   * The pipeline begins by reading all input PDFs from `data/pdfs/` and convert each to a Markdown (`data/md/`) and a structured JSON (`data/jsons/`) representation. This dual-parsing approach ensures both clean text for NLP and structural metadata are preserved
+   * The pipeline begins by reading all input PDFs from `data/pdfs/` and convert each to a Markdown (`data/md/`) and a structured JSON (`data/jsons/`) representation. This dual-parsing approach ensures both clean text for NLP and structural metadata are preserved.
 
 2. **Clean Markdown Files**
 
@@ -52,18 +52,21 @@ This fully automated pipeline processes raw scientific PDFs through multiple sta
 
    * Cleaned Markdown files are converted to plain text (`data/txts/`) for core NLP processing.
 
-3. **Information Extraction: Chemical Species Extraction, Database Extraction, BOLSIG+ Solver Extraction**
+3. **Information Extraction From Markdown**
 
-   * From `data/txts/`, the pipeline extracts counts used for Bolsig+ processing, builds a database dictionary of databases used by LxCat Community, and chemical species dictionary containing counts/occurrences of LXCat species across documents. The results are kept ready for aggregation.
-
+* From the cleaned text files in `data/txts/`, the pipeline automatically extracts key scientific information:
+  * **Chemical Species Extraction** using ChemDataExtractor
+  * **LXCat Database Mention Extraction** through rule-based NLP
+  * **BOLSIG+ Solver Usage Counting** at the sentence level
+    
 4. **JSONs → Country fetching**
 
    * The structural JSON outputs are parsed to reliably extract author affiliation and country information (using pycountry).
 
 5. **Final aggregation and results**
 
-   * All extracted information (from steps 1–4) is combined into a single Excel workbook: `results/data/results.xlsx`.
-   * A `results/plots/` folder contains several automatically generated plots (histograms, bar charts of gas species frequency, country distribution, Bolsig+ related plots, etc.).
+   * All extracted information is aggregated into a single Excel workbook: `results/data/results.xlsx`.
+   * A `results/plots/` folder contains several automatically generated plots (distribution of top chemical species, databases, countries etc.).
 
 ---
 
@@ -87,11 +90,13 @@ If you prefer to run steps individually, open main.py and call the specific modu
 
 ## 📂 Outputs
 
-* `data/md/` — generated markdown files (one per PDF)
-* `data/jsons/` — generated JSON metadata for each PDF
-* `data/txts/` — cleaned plain-text files used for extraction
-* `results/data/results.xlsx` — consolidated spreadsheet containing data for the four main entity groups (bolsig counts, database dictionary entries, gaseous species counts, country info).
-* `results/plots/` — plots used for quick analysis and reporting.
+| **Directory / File**              | **Content Type**         | **Description** |
+|----------------------------------|---------------------------|-----------------|
+| `data/md/`                        | *Raw Markdown*            | Markdown generated directly from PDFs. |
+| `data/jsons/`                     | *Structured JSON*         | JSON files preserving structural metadata. |
+| `data/txts/`                      | *Cleaned Plain Text*      | Final plain-text used for NLP extraction. |
+| `results/data/results.xlsx`       | *Final Dataset*           | Consolidated spreadsheet containing all extracted entities (species, databases, BOLSIG+, countries). |
+| `results/plots/`                  | *Visual Analytics*        | Automatically generated distribution plots. |
 
 ---
 
@@ -106,7 +111,7 @@ If you prefer to run steps individually, open main.py and call the specific modu
 
 ## ✍️ Development Notes
 
-* `main.py` orchestrates the five high-level steps; each task is delegated to a function within one of the six utils/*.py modules.
+* `main.py` orchestrates the five high-level steps; each task is delegated to a function within one of the six `utils/*.py` modules.
 
 
 ---
